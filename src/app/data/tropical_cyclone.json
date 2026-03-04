@@ -1,0 +1,2988 @@
+[
+  {
+    "disno": "1979-0016-VUT",
+    "start": "1979-01-06",
+    "end": "1979-01-06",
+    "max_wind_ms": 16.570756912231445,
+    "max_rain_mm": 149.90139770507812,
+    "max_rain_bin": "100-150",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.795,
+    "rain_coverage_frac": 0.223125,
+    "wind_coverage_text": "broad wind field",
+    "rain_coverage_text": "compact rainfall area",
+    "rain_asym_dir": "NE",
+    "wind_max_quadrant": "NE",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "diffuse",
+    "max_wind_text": "Beaufort 7, Near gale",
+    "max_rain_text": "very heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": -15.25,
+      "lon": 165.75,
+      "land_sea": "sea",
+      "sea_area": "Coral Sea",
+      "country": "Vanuatu",
+      "admin1": "Sanma Province",
+      "nearest_city": "Batouna"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": -20.0,
+      "lon": 164.75,
+      "land_sea": "sea",
+      "sea_area": "Coral Sea",
+      "country": "New Caledonia",
+      "admin1": "North Province",
+      "nearest_city": "Balade",
+      "eval_ms_sets": {
+        "country": [
+          "New Caledonia"
+        ],
+        "admin1": [
+          "New Caledonia",
+          "North Province"
+        ],
+        "full": [
+          "New Caledonia",
+          "North Province",
+          "Coral Sea",
+          "Balade"
+        ]
+      },
+      "eval_coord": {
+        "lat": -20.0,
+        "lon": 164.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": -15.0,
+      "lon": 166.75,
+      "land_sea": "sea",
+      "sea_area": null,
+      "country": "Vanuatu",
+      "admin1": "Sanma Province",
+      "nearest_city": "Souléiséré",
+      "eval_ms_sets": {
+        "country": [
+          "Vanuatu"
+        ],
+        "admin1": [
+          "Vanuatu",
+          "Sanma Province"
+        ],
+        "full": [
+          "Vanuatu",
+          "Sanma Province",
+          "Souléiséré"
+        ]
+      },
+      "eval_coord": {
+        "lat": -15.0,
+        "lon": 166.75
+      }
+    },
+    "impact_summary": "The wind field spreads over a wide area but with clear directional bias, so the strongest gusts and wave generation are focused on one side of the system, creating choppy seas and hazardous conditions for small vessels. These winds can cause scattered structural and vegetation damage, particularly along exposed coasts and elevated terrain. In contrast, rainfall is tightly concentrated near the center, where intense downpours may trigger brief flash flooding and rapid stream responses, while outer regions see only patchy showers. Overall, wind-related and marine hazards dominate, with rainfall impacts remaining more localized around the core."
+  },
+  {
+    "disno": "1979-0022-MUS",
+    "start": "1979-02-01",
+    "end": "1979-02-28",
+    "max_wind_ms": 16.78433609008789,
+    "max_rain_mm": 172.57833862304688,
+    "max_rain_bin": "150-200",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.991875,
+    "rain_coverage_frac": 0.438125,
+    "wind_coverage_text": "very broad wind field",
+    "rain_coverage_text": "moderate rainfall area",
+    "rain_asym_dir": "NW",
+    "wind_max_quadrant": "NW",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 7, Near gale",
+    "max_rain_text": "very heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": -20.75,
+      "lon": 62.5,
+      "land_sea": "sea",
+      "sea_area": "Indian Ocean",
+      "country": "Mauritius",
+      "admin1": "Rodrigues",
+      "nearest_city": "Gravier"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": -22.0,
+      "lon": 61.0,
+      "land_sea": "sea",
+      "sea_area": "Indian Ocean",
+      "country": "Mauritius",
+      "admin1": "Unknown admin1",
+      "nearest_city": null,
+      "eval_ms_sets": {
+        "country": [
+          "Mauritius"
+        ],
+        "admin1": [
+          "Mauritius"
+        ],
+        "full": [
+          "Mauritius",
+          "Indian Ocean"
+        ]
+      },
+      "eval_coord": {
+        "lat": -22.0,
+        "lon": 61.0
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": -19.5,
+      "lon": 54.25,
+      "land_sea": "sea",
+      "sea_area": "Indian Ocean",
+      "country": "Madagascar",
+      "admin1": "Sofia",
+      "nearest_city": "Ambohimitsinjo",
+      "eval_ms_sets": {
+        "country": [
+          "Madagascar"
+        ],
+        "admin1": [
+          "Madagascar",
+          "Sofia"
+        ],
+        "full": [
+          "Madagascar",
+          "Sofia",
+          "Indian Ocean",
+          "Ambohimitsinjo"
+        ]
+      },
+      "eval_coord": {
+        "lat": -19.5,
+        "lon": 54.25
+      }
+    },
+    "impact_summary": "The wind field is spread over a large area but with only moderate peak intensity, so wind stress is more likely to cause widespread choppy seas, prolonged wave buildup, and minor structural strain rather than concentrated severe damage. The strong directional imbalance means one side of the system and adjacent coasts may experience noticeably rougher marine conditions and more persistent onshore gusts. Rainfall is organized in several grouped bands around the circulation, producing intermittent but sometimes intense downpours separated by lulls, favoring localized flash flooding, rapid ponding in low-lying areas, and short-lived rises on small rivers and streams where bands repeatedly pass over the same locations. Overall, rainfall-driven flooding and runoff responses are the primary hazard, with wind effects mainly enhancing marine and coastal exposure."
+  },
+  {
+    "disno": "1979-0026-SLB",
+    "start": "1979-02-18",
+    "end": "1979-02-18",
+    "max_wind_ms": 15.48175048828125,
+    "max_rain_mm": 76.22528076171875,
+    "max_rain_bin": "50-100",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.251875,
+    "rain_coverage_frac": 0.0225,
+    "wind_coverage_text": "compact wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "NE",
+    "wind_max_quadrant": "NE",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 7, Near gale",
+    "max_rain_text": "heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": -14.0,
+      "lon": 158.0,
+      "land_sea": "sea",
+      "sea_area": "Coral Sea",
+      "country": "Solomon Islands",
+      "admin1": "Unknown admin1",
+      "nearest_city": null
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": -14.0,
+      "lon": 159.5,
+      "land_sea": "sea",
+      "sea_area": "Coral Sea",
+      "country": "Solomon Islands",
+      "admin1": "Unknown admin1",
+      "nearest_city": null,
+      "eval_ms_sets": {
+        "country": [
+          "Solomon Islands"
+        ],
+        "admin1": [
+          "Solomon Islands"
+        ],
+        "full": [
+          "Solomon Islands",
+          "Coral Sea"
+        ]
+      },
+      "eval_coord": {
+        "lat": -14.0,
+        "lon": 159.5
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": -14.0,
+      "lon": 159.75,
+      "land_sea": "sea",
+      "sea_area": "Coral Sea",
+      "country": "Solomon Islands",
+      "admin1": "Unknown admin1",
+      "nearest_city": "Petupai",
+      "eval_ms_sets": {
+        "country": [
+          "Solomon Islands"
+        ],
+        "admin1": [
+          "Solomon Islands"
+        ],
+        "full": [
+          "Solomon Islands",
+          "Coral Sea",
+          "Petupai"
+        ]
+      },
+      "eval_coord": {
+        "lat": -14.0,
+        "lon": 159.75
+      }
+    },
+    "impact_summary": "Wind effects are focused into one side of a small core, so the strongest gusts and short-period squalls are confined to a narrow corridor, especially near and just offshore of the track. This pattern favors brief but noticeable wind stress on exposed coasts and elevated terrain, with limited inland penetration. Rainfall is organized into compact clusters close to the center, leading to short-lived but intense showers where individual bands come ashore, with localized runoff surges in small catchments. Because the wet area is small, flooding and slope destabilization are likely to be localized rather than widespread. Overall, wind and rain hazards are of comparable importance, but both remain spatially confined around the immediate core region."
+  },
+  {
+    "disno": "1979-0033-FJI",
+    "start": "1979-03-27",
+    "end": "1979-03-27",
+    "max_wind_ms": 7.785632133483887,
+    "max_rain_mm": 1.5454292297363281,
+    "max_rain_bin": "<20",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 1.0,
+    "rain_coverage_frac": 0.0,
+    "wind_coverage_text": "very broad wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "NW",
+    "wind_max_quadrant": "NW",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "none",
+    "max_wind_text": "Beaufort 4, Moderate breeze",
+    "max_rain_text": "light rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": -12.75,
+      "lon": 4.0,
+      "land_sea": "sea",
+      "sea_area": "South Atlantic Ocean",
+      "country": "Unknown country",
+      "admin1": "Unknown admin1",
+      "nearest_city": null
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": -20.75,
+      "lon": 4.0,
+      "land_sea": "sea",
+      "sea_area": "South Atlantic Ocean",
+      "country": "Unknown country",
+      "admin1": "Unknown admin1",
+      "nearest_city": null,
+      "eval_ms_sets": {
+        "country": [],
+        "admin1": [],
+        "full": [
+          "South Atlantic Ocean"
+        ]
+      },
+      "eval_coord": {
+        "lat": -20.75,
+        "lon": 4.0
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": -22.0,
+      "lon": -0.75,
+      "land_sea": "sea",
+      "sea_area": "South Atlantic Ocean",
+      "country": "Saint Helena, Ascension and Tristan da Cunha",
+      "admin1": "Unknown admin1",
+      "nearest_city": null,
+      "eval_ms_sets": {
+        "country": [
+          "Saint Helena, Ascension and Tristan da Cunha"
+        ],
+        "admin1": [
+          "Saint Helena, Ascension and Tristan da Cunha"
+        ],
+        "full": [
+          "Saint Helena, Ascension and Tristan da Cunha",
+          "South Atlantic Ocean"
+        ]
+      },
+      "eval_coord": {
+        "lat": -22.0,
+        "lon": -0.75
+      }
+    },
+    "impact_summary": "Winds are spread over a large area but remain relatively gentle, so direct structural damage is unlikely aside from minor effects on unsecured items and light vegetation. Over open water, the broad zone of persistent breeze can sustain choppy seas and modest wave development, which may challenge small vessels and slightly increase wave run-up along exposed coasts. Rainfall is confined to a small core region and is weak, limiting runoff and making significant river flooding or slope failures improbable. Overall, wind-driven marine and coastal conditions are the primary concern, while rainfall-related impacts remain minimal and localized."
+  },
+  {
+    "disno": "1979-0040-PHL",
+    "start": "1979-04-15",
+    "end": "1979-04-15",
+    "max_wind_ms": 13.06202507019043,
+    "max_rain_mm": 241.98532104492188,
+    "max_rain_bin": ">=200",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.25,
+    "rain_coverage_frac": 0.14312500000000003,
+    "wind_coverage_text": "compact wind field",
+    "rain_coverage_text": "compact rainfall area",
+    "rain_asym_dir": "SW",
+    "wind_max_quadrant": "NW",
+    "wind_rain_co_loc": "different",
+    "rainband_type": "diffuse",
+    "max_wind_text": "Beaufort 6, Strong breeze",
+    "max_rain_text": "extreme rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 11.0,
+      "lon": 124.25,
+      "land_sea": "sea",
+      "sea_area": "Philippine Sea",
+      "country": "Philippines",
+      "admin1": "Eastern Visayas",
+      "nearest_city": "Palompon"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 12.0,
+      "lon": 126.5,
+      "land_sea": "sea",
+      "sea_area": "Philippine Sea",
+      "country": "Philippines",
+      "admin1": "Eastern Visayas",
+      "nearest_city": "Can-avid",
+      "eval_ms_sets": {
+        "country": [
+          "Philippines"
+        ],
+        "admin1": [
+          "Philippines",
+          "Eastern Visayas"
+        ],
+        "full": [
+          "Philippines",
+          "Eastern Visayas",
+          "Philippine Sea",
+          "Can-avid"
+        ]
+      },
+      "eval_coord": {
+        "lat": 12.0,
+        "lon": 126.5
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 11.0,
+      "lon": 123.75,
+      "land_sea": "sea",
+      "sea_area": "Philippine Sea",
+      "country": "Philippines",
+      "admin1": "Central Visayas",
+      "nearest_city": "Bantayan",
+      "eval_ms_sets": {
+        "country": [
+          "Philippines"
+        ],
+        "admin1": [
+          "Philippines",
+          "Central Visayas"
+        ],
+        "full": [
+          "Philippines",
+          "Central Visayas",
+          "Philippine Sea",
+          "Bantayan"
+        ]
+      },
+      "eval_coord": {
+        "lat": 11.0,
+        "lon": 123.75
+      }
+    },
+    "impact_summary": "Wind effects are unevenly distributed around the center, with a narrow zone of stronger gusts on one side of the circulation that can cause minor structural strain, tree damage, and choppy nearshore seas where this sector crosses the coast. Outside this core sector, winds are more modest, limiting the spatial extent of notable wind-related impacts. Rainfall is highly concentrated near the core, with very intense downpours capable of producing rapid runoff, short-fuse flash flooding, and localized river rises beneath the heaviest cells. The limited horizontal spread of the rain shield focuses flood potential into a relatively small area, increasing the chance of saturated soils and shallow landslides on steep slopes. Overall, concentrated rainfall and associated flooding processes dominate over wind as the primary hazard mechanism."
+  },
+  {
+    "disno": "1979-0048-BGD",
+    "start": "1979-05-02",
+    "end": "1979-05-02",
+    "max_wind_ms": 10.409025192260742,
+    "max_rain_mm": 108.68167877197266,
+    "max_rain_bin": "100-150",
+    "wind_symmetry": "moderately_asymmetric",
+    "wind_coverage_frac": 0.186875,
+    "rain_coverage_frac": 0.014374999999999999,
+    "wind_coverage_text": "compact wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "NE",
+    "wind_max_quadrant": "NE",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 5, Fresh breeze",
+    "max_rain_text": "very heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 25.25,
+      "lon": 85.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "India",
+      "admin1": "Bihar",
+      "nearest_city": "Toi"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 20.75,
+      "lon": 88.0,
+      "land_sea": "sea",
+      "sea_area": "Bay of Bengal",
+      "country": "India",
+      "admin1": "West Bengal",
+      "nearest_city": "Radha Krishnapur",
+      "eval_ms_sets": {
+        "country": [
+          "India"
+        ],
+        "admin1": [
+          "India",
+          "West Bengal"
+        ],
+        "full": [
+          "India",
+          "West Bengal",
+          "Bay of Bengal",
+          "Radha Krishnapur"
+        ]
+      },
+      "eval_coord": {
+        "lat": 20.75,
+        "lon": 88.0
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 25.0,
+      "lon": 93.0,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "India",
+      "admin1": "Assam",
+      "nearest_city": "Changsu Punji",
+      "eval_ms_sets": {
+        "country": [
+          "India"
+        ],
+        "admin1": [
+          "India",
+          "Assam"
+        ],
+        "full": [
+          "India",
+          "Assam",
+          "Changsu Punji"
+        ]
+      },
+      "eval_coord": {
+        "lat": 25.0,
+        "lon": 93.0
+      }
+    },
+    "impact_summary": "Wind effects are modest and focused close to the center, with a stronger sector on one side of the circulation that can bring choppy seas, short-period waves, and minor structural strain to exposed, low-built assets, while inland the breeze may down small branches and disturb light, unsecured objects. Rainfall is intense but confined to a small core and a few nearby clusters, producing short-duration cloudbursts that can overwhelm local drainage and trigger highly localized flash flooding and brief, sharp rises on small streams rather than broad, basin-wide inundation. Overall, localized rainfall extremes are the primary driver of hazard, with wind playing a secondary, mostly marine-focused role."
+  },
+  {
+    "disno": "1979-0051-IND",
+    "start": "1979-05-12",
+    "end": "1979-05-12",
+    "max_wind_ms": 20.761262893676758,
+    "max_rain_mm": 402.91644287109375,
+    "max_rain_bin": ">=200",
+    "wind_symmetry": "moderately_asymmetric",
+    "wind_coverage_frac": 0.2,
+    "rain_coverage_frac": 0.165,
+    "wind_coverage_text": "compact wind field",
+    "rain_coverage_text": "compact rainfall area",
+    "rain_asym_dir": "NW",
+    "wind_max_quadrant": null,
+    "wind_rain_co_loc": null,
+    "rainband_type": "diffuse",
+    "max_wind_text": "Beaufort 8, Gale",
+    "max_rain_text": "extreme rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 15.0,
+      "lon": 80.75,
+      "land_sea": "sea",
+      "sea_area": "Bay of Bengal",
+      "country": "India",
+      "admin1": "Andhra Pradesh",
+      "nearest_city": "Motumala"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 14.75,
+      "lon": 81.75,
+      "land_sea": "sea",
+      "sea_area": "Bay of Bengal",
+      "country": "India",
+      "admin1": "Andhra Pradesh",
+      "nearest_city": "Lankevanidibba",
+      "eval_ms_sets": {
+        "country": [
+          "India"
+        ],
+        "admin1": [
+          "India",
+          "Andhra Pradesh"
+        ],
+        "full": [
+          "India",
+          "Andhra Pradesh",
+          "Bay of Bengal",
+          "Lankevanidibba"
+        ]
+      },
+      "eval_coord": {
+        "lat": 14.75,
+        "lon": 81.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 14.75,
+      "lon": 80.5,
+      "land_sea": "sea",
+      "sea_area": "Bay of Bengal",
+      "country": "India",
+      "admin1": "Andhra Pradesh",
+      "nearest_city": "Varini",
+      "eval_ms_sets": {
+        "country": [
+          "India"
+        ],
+        "admin1": [
+          "India",
+          "Andhra Pradesh"
+        ],
+        "full": [
+          "India",
+          "Andhra Pradesh",
+          "Bay of Bengal",
+          "Varini"
+        ]
+      },
+      "eval_coord": {
+        "lat": 14.75,
+        "lon": 80.5
+      }
+    },
+    "impact_summary": "Wind impacts are focused near the center, with the strongest gusts confined to a relatively small core and slightly stronger on one side of the circulation, favoring localized tree damage, minor structural stress, and choppy to rough nearshore seas where the onshore flow aligns with the strongest winds. Rainfall is highly concentrated around the inner core, with very intense downpours capable of producing rapid runoff where the system slows or stalls, while loosely organized outer bands spread lighter rain more unevenly. This pattern enhances flash flooding and the potential for slope failures in steep terrain close to the track. Overall, concentrated rainfall and associated runoff processes are the dominant hazard mechanism, with wind effects playing a secondary but still notable role near the core."
+  },
+  {
+    "disno": "1979-0069-DMA",
+    "start": "1979-08-29",
+    "end": "1979-09-06",
+    "max_wind_ms": 17.016429901123047,
+    "max_rain_mm": 227.94247436523438,
+    "max_rain_bin": ">=200",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.621875,
+    "rain_coverage_frac": 0.391875,
+    "wind_coverage_text": "broad wind field",
+    "rain_coverage_text": "moderate rainfall area",
+    "rain_asym_dir": "SE",
+    "wind_max_quadrant": "SE",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 7, Near gale",
+    "max_rain_text": "extreme rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 16.5,
+      "lon": -64.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Puerto Rico",
+      "admin1": "Arecibo",
+      "nearest_city": "Arecibo"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 17.75,
+      "lon": -64.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "U.S. Virgin Islands",
+      "admin1": "St. Croix",
+      "nearest_city": "Christiansted",
+      "eval_ms_sets": {
+        "country": [
+          "U.S. Virgin Islands"
+        ],
+        "admin1": [
+          "U.S. Virgin Islands",
+          "St. Croix"
+        ],
+        "full": [
+          "U.S. Virgin Islands",
+          "St. Croix",
+          "Christiansted"
+        ]
+      },
+      "eval_coord": {
+        "lat": 17.75,
+        "lon": -64.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 17.25,
+      "lon": -63.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Curaçao",
+      "admin1": "Curaçao",
+      "nearest_city": "Willemstad",
+      "eval_ms_sets": {
+        "country": [
+          "Curaçao"
+        ],
+        "admin1": [
+          "Curaçao",
+          "Curaçao"
+        ],
+        "full": [
+          "Curaçao",
+          "Curaçao",
+          "Willemstad"
+        ]
+      },
+      "eval_coord": {
+        "lat": 17.25,
+        "lon": -63.75
+      }
+    },
+    "impact_summary": "The wind field is spread over a wide area but with a clear favored side where stronger gusts are concentrated, increasing the potential for patchy structural damage, downed trees, and power-line disruption rather than uniform destruction. Exposed coasts and marine areas on the stronger side can experience hazardous seas and wave setup, even at some distance from the center. Rainfall is intense but organized into clusters and bands that sweep across a moderately sized region, favoring episodes of very heavy downpours separated by lulls. This pattern supports flash flooding in small catchments, rapid rises on streams, and localized slope failures where bands repeatedly pass over the same terrain. Overall, rainfall-induced flooding and related ground instability are likely to be more consequential than the wind stress."
+  },
+  {
+    "disno": "1979-0070-DOM",
+    "start": "1979-08-01",
+    "end": "1979-08-31",
+    "max_wind_ms": 17.48394012451172,
+    "max_rain_mm": 241.1451416015625,
+    "max_rain_bin": ">=200",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.74,
+    "rain_coverage_frac": 0.16749999999999998,
+    "wind_coverage_text": "broad wind field",
+    "rain_coverage_text": "compact rainfall area",
+    "rain_asym_dir": "NW",
+    "wind_max_quadrant": "NW",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "diffuse",
+    "max_wind_text": "Beaufort 8, Gale",
+    "max_rain_text": "extreme rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 17.5,
+      "lon": -68.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Dominican Republic",
+      "admin1": "La Altagracia",
+      "nearest_city": "Batey 412"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 17.75,
+      "lon": -67.25,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Puerto Rico",
+      "admin1": "Cabo Rojo",
+      "nearest_city": "El Combate",
+      "eval_ms_sets": {
+        "country": [
+          "Puerto Rico"
+        ],
+        "admin1": [
+          "Puerto Rico",
+          "Cabo Rojo"
+        ],
+        "full": [
+          "Puerto Rico",
+          "Cabo Rojo",
+          "El Combate"
+        ]
+      },
+      "eval_coord": {
+        "lat": 17.75,
+        "lon": -67.25
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 18.0,
+      "lon": -68.25,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Puerto Rico",
+      "admin1": "La Altagracia",
+      "nearest_city": "Batey 412",
+      "eval_ms_sets": {
+        "country": [
+          "Puerto Rico"
+        ],
+        "admin1": [
+          "Puerto Rico",
+          "La Altagracia"
+        ],
+        "full": [
+          "Puerto Rico",
+          "La Altagracia",
+          "Batey 412"
+        ]
+      },
+      "eval_coord": {
+        "lat": 18.0,
+        "lon": -68.25
+      }
+    },
+    "impact_summary": "The wind field is extensive but lopsided, with the strongest gusts and sustained flow concentrated on one side of the circulation, leading to uneven wind stress on structures, vegetation, and exposed coastlines. Prolonged onshore flow over a wide area can also enhance wave buildup and coastal water level anomalies, even away from the immediate center. Rainfall is focused near the core rather than spread broadly, so the most intense downpours and runoff will be confined to a relatively narrow corridor beneath the inner circulation, favoring sharp gradients in surface water response. Overall, the primary hazard arises from concentrated rainfall near the center, with wind impacts more widespread but generally of secondary importance."
+  },
+  {
+    "disno": "1979-0071-MTQ",
+    "start": "1979-08-01",
+    "end": "1979-08-31",
+    "max_wind_ms": 17.016429901123047,
+    "max_rain_mm": 227.94247436523438,
+    "max_rain_bin": ">=200",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.620625,
+    "rain_coverage_frac": 0.27812499999999996,
+    "wind_coverage_text": "broad wind field",
+    "rain_coverage_text": "compact rainfall area",
+    "rain_asym_dir": "SE",
+    "wind_max_quadrant": "SE",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 7, Near gale",
+    "max_rain_text": "extreme rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 16.5,
+      "lon": -64.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Puerto Rico",
+      "admin1": "Arecibo",
+      "nearest_city": "Arecibo"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 17.75,
+      "lon": -64.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "U.S. Virgin Islands",
+      "admin1": "St. Croix",
+      "nearest_city": "Christiansted",
+      "eval_ms_sets": {
+        "country": [
+          "U.S. Virgin Islands"
+        ],
+        "admin1": [
+          "U.S. Virgin Islands",
+          "St. Croix"
+        ],
+        "full": [
+          "U.S. Virgin Islands",
+          "St. Croix",
+          "Christiansted"
+        ]
+      },
+      "eval_coord": {
+        "lat": 17.75,
+        "lon": -64.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 17.25,
+      "lon": -63.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Curaçao",
+      "admin1": "Curaçao",
+      "nearest_city": "Willemstad",
+      "eval_ms_sets": {
+        "country": [
+          "Curaçao"
+        ],
+        "admin1": [
+          "Curaçao",
+          "Curaçao"
+        ],
+        "full": [
+          "Curaçao",
+          "Curaçao",
+          "Willemstad"
+        ]
+      },
+      "eval_coord": {
+        "lat": 17.25,
+        "lon": -63.75
+      }
+    },
+    "impact_summary": "The wind field is spread over a large area but is much stronger on one side of the system, so gust-related damage would be patchy, with certain coastal and elevated locations experiencing more pronounced stress on vegetation, light structures, and marine conditions. Prolonged onshore flow in the favored sector can also enhance wave setup and choppy seas well away from the center. Rainfall is concentrated near the core and in a few organized bands, favoring short-duration but very intense downpours where these features stall or repeatedly pass, which supports rapid runoff, flash flooding in small catchments, and localized slope failures rather than widespread basin-scale flooding. Overall, rainfall-driven flooding and related ground instability are likely to be more hazardous than the broadly distributed but moderate winds."
+  },
+  {
+    "disno": "1979-0074-HKG",
+    "start": "1979-07-28",
+    "end": "1979-07-28",
+    "max_wind_ms": 14.105469703674316,
+    "max_rain_mm": 124.61900329589844,
+    "max_rain_bin": "100-150",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.08,
+    "rain_coverage_frac": 0.025625000000000002,
+    "wind_coverage_text": "very compact wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "SW",
+    "wind_max_quadrant": "SW",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "weak_clustered",
+    "max_wind_text": "Beaufort 7, Near gale",
+    "max_rain_text": "very heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 22.75,
+      "lon": 119.0,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "Taiwan",
+      "admin1": "澎湖縣",
+      "nearest_city": null
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 24.5,
+      "lon": 119.0,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "China",
+      "admin1": "Fujian",
+      "nearest_city": "Quanzhou",
+      "eval_ms_sets": {
+        "country": [
+          "China"
+        ],
+        "admin1": [
+          "China",
+          "Fujian"
+        ],
+        "full": [
+          "China",
+          "Fujian",
+          "South China Sea",
+          "Quanzhou"
+        ]
+      },
+      "eval_coord": {
+        "lat": 24.5,
+        "lon": 119.0
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 22.0,
+      "lon": 118.25,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "China",
+      "admin1": "彰化縣",
+      "nearest_city": null,
+      "eval_ms_sets": {
+        "country": [
+          "China"
+        ],
+        "admin1": [
+          "China",
+          "彰化縣"
+        ],
+        "full": [
+          "China",
+          "彰化縣",
+          "South China Sea"
+        ]
+      },
+      "eval_coord": {
+        "lat": 22.0,
+        "lon": 118.25
+      }
+    },
+    "impact_summary": "The strongest winds are tightly packed near the center and skewed toward one side of the circulation, so any damaging gusts and choppy seas are confined to a narrow corridor along the track and on the favored flank. Away from this inner core, wind stress drops off quickly, limiting the extent of structural strain and tree damage. Rainfall is focused into a small footprint with patchy but intense downpours near the core, leading to short-lived surface water accumulation and rapid runoff in a restricted area, with some potential for brief slope failures. Overall, rainfall-driven effects slightly outweigh wind impacts, but both remain spatially confined and short-range."
+  },
+  {
+    "disno": "1979-0077-PHL",
+    "start": "1979-08-12",
+    "end": "1979-08-12",
+    "max_wind_ms": 17.35708236694336,
+    "max_rain_mm": 137.47024536132812,
+    "max_rain_bin": "100-150",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.40375,
+    "rain_coverage_frac": 0.21375,
+    "wind_coverage_text": "moderately sized wind field",
+    "rain_coverage_text": "compact rainfall area",
+    "rain_asym_dir": "SW",
+    "wind_max_quadrant": "SW",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 8, Gale",
+    "max_rain_text": "very heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 17.75,
+      "lon": 126.75,
+      "land_sea": "sea",
+      "sea_area": "Philippine Sea",
+      "country": "Philippines",
+      "admin1": "Cagayan Valley",
+      "nearest_city": "Iguig"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 15.25,
+      "lon": 126.75,
+      "land_sea": "sea",
+      "sea_area": "Philippine Sea",
+      "country": "Philippines",
+      "admin1": "Cagayan Valley",
+      "nearest_city": "Sabtang",
+      "eval_ms_sets": {
+        "country": [
+          "Philippines"
+        ],
+        "admin1": [
+          "Philippines",
+          "Cagayan Valley"
+        ],
+        "full": [
+          "Philippines",
+          "Cagayan Valley",
+          "Philippine Sea",
+          "Sabtang"
+        ]
+      },
+      "eval_coord": {
+        "lat": 15.25,
+        "lon": 126.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 16.25,
+      "lon": 124.75,
+      "land_sea": "sea",
+      "sea_area": "Philippine Sea",
+      "country": "Philippines",
+      "admin1": "Bicol",
+      "nearest_city": "Paracale",
+      "eval_ms_sets": {
+        "country": [
+          "Philippines"
+        ],
+        "admin1": [
+          "Philippines",
+          "Bicol"
+        ],
+        "full": [
+          "Philippines",
+          "Bicol",
+          "Philippine Sea",
+          "Paracale"
+        ]
+      },
+      "eval_coord": {
+        "lat": 16.25,
+        "lon": 124.75
+      }
+    },
+    "impact_summary": "Wind impacts are lopsided, with the strongest gusts concentrated on one side of the circulation and extending over a moderate area, leading to pockets of elevated wind damage potential along exposed coasts and higher terrain. The uneven structure favors localized periods of hazardous crosswinds and choppy seas rather than a uniformly severe wind footprint. Rainfall is focused near the core with several nearby convective elements, promoting short-duration but intense downpours where these features repeatedly pass, supporting rapid runoff, flash flooding in small catchments, and localized slope failures where motion slows. Overall, concentrated rainfall and associated runoff processes are the primary hazard, with wind effects playing a secondary but still notable role."
+  },
+  {
+    "disno": "1979-0078-BGD",
+    "start": "1979-08-17",
+    "end": "1979-08-17",
+    "max_wind_ms": 8.301716804504395,
+    "max_rain_mm": 85.20173645019531,
+    "max_rain_bin": "50-100",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.20875,
+    "rain_coverage_frac": 0.0062499999999999995,
+    "wind_coverage_text": "compact wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "NE",
+    "wind_max_quadrant": "NW",
+    "wind_rain_co_loc": "different",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 5, Fresh breeze",
+    "max_rain_text": "heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 25.0,
+      "lon": 86.25,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "India",
+      "admin1": "Bihar",
+      "nearest_city": "Bhaluka"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 18.75,
+      "lon": 89.75,
+      "land_sea": "sea",
+      "sea_area": "Bay of Bengal",
+      "country": "India",
+      "admin1": "Dhaka Division",
+      "nearest_city": "Goalanda",
+      "eval_ms_sets": {
+        "country": [
+          "India"
+        ],
+        "admin1": [
+          "India",
+          "Dhaka Division"
+        ],
+        "full": [
+          "India",
+          "Dhaka Division",
+          "Bay of Bengal",
+          "Goalanda"
+        ]
+      },
+      "eval_coord": {
+        "lat": 18.75,
+        "lon": 89.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 24.5,
+      "lon": 85.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "India",
+      "admin1": "Jharkhand",
+      "nearest_city": "Panchgaonkhurd aliaska",
+      "eval_ms_sets": {
+        "country": [
+          "India"
+        ],
+        "admin1": [
+          "India",
+          "Jharkhand"
+        ],
+        "full": [
+          "India",
+          "Jharkhand",
+          "Panchgaonkhurd aliaska"
+        ]
+      },
+      "eval_coord": {
+        "lat": 24.5,
+        "lon": 85.75
+      }
+    },
+    "impact_summary": "Wind effects are unevenly distributed around the center, with a narrow zone of stronger flow on one side that can produce choppy seas, hazardous small-craft conditions, and minor structural or tree damage close to the core. Away from this tight inner region, winds weaken quickly, limiting the spatial extent of significant wind stress. Rainfall is confined to a small area near the circulation, organized in a few compact cores that can drop intense showers over short periods, favoring localized flash flooding and brief rises on small streams or low-lying depressions. Overall, localized rainfall-driven flooding is the primary hazard, with wind impacts remaining secondary and spatially restricted."
+  },
+  {
+    "disno": "1979-0081-KOR",
+    "start": "1979-08-26",
+    "end": "1979-08-26",
+    "max_wind_ms": 13.716340065002441,
+    "max_rain_mm": 104.63237762451172,
+    "max_rain_bin": "100-150",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.468125,
+    "rain_coverage_frac": 0.06375,
+    "wind_coverage_text": "moderately sized wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "NW",
+    "wind_max_quadrant": "NW",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 6, Strong breeze",
+    "max_rain_text": "very heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 34.25,
+      "lon": 128.0,
+      "land_sea": "sea",
+      "sea_area": "Japan Sea",
+      "country": "South Korea",
+      "admin1": "Jeollanam-do",
+      "nearest_city": "Yeosu"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 32.5,
+      "lon": 132.25,
+      "land_sea": "sea",
+      "sea_area": "Philippine Sea",
+      "country": "Japan",
+      "admin1": "Kochi",
+      "nearest_city": "Sukumo",
+      "eval_ms_sets": {
+        "country": [
+          "Japan"
+        ],
+        "admin1": [
+          "Japan",
+          "Kochi"
+        ],
+        "full": [
+          "Japan",
+          "Kochi",
+          "Philippine Sea",
+          "Sukumo"
+        ]
+      },
+      "eval_coord": {
+        "lat": 32.5,
+        "lon": 132.25
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 32.5,
+      "lon": 130.25,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Japan",
+      "admin1": "Kumamoto",
+      "nearest_city": "Amakusa",
+      "eval_ms_sets": {
+        "country": [
+          "Japan"
+        ],
+        "admin1": [
+          "Japan",
+          "Kumamoto"
+        ],
+        "full": [
+          "Japan",
+          "Kumamoto",
+          "Amakusa"
+        ]
+      },
+      "eval_coord": {
+        "lat": 32.5,
+        "lon": 130.25
+      }
+    },
+    "impact_summary": "The wind field is uneven, with stronger gusts focused on one side of the system and extending over a moderate area, leading to patchy potential for tree damage, minor structural strain, and choppy seas along exposed coasts, while inland wind effects are more limited but could still cause sporadic downed branches and localized disruptions. Rainfall is concentrated close to the center in compact, organized cells, so the most intense downpours are confined to a narrow corridor, favoring short-lived but sharp runoff responses and brief urban or small-stream flooding where these cores repeatedly track over the same locations. Overall, localized rainfall bursts are the primary driver of hazard, with wind effects remaining secondary and more broadly dispersed."
+  },
+  {
+    "disno": "1979-0083-HTI",
+    "start": "1979-08-31",
+    "end": "1979-08-31",
+    "max_wind_ms": 17.14286231994629,
+    "max_rain_mm": 241.1451416015625,
+    "max_rain_bin": ">=200",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.245625,
+    "rain_coverage_frac": 0.06874999999999999,
+    "wind_coverage_text": "compact wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "SW",
+    "wind_max_quadrant": "NW",
+    "wind_rain_co_loc": "different",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 7, Near gale",
+    "max_rain_text": "extreme rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 17.5,
+      "lon": -68.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Dominican Republic",
+      "admin1": "La Altagracia",
+      "nearest_city": "Batey 412"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 19.25,
+      "lon": -68.5,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Dominican Republic",
+      "admin1": "La Altagracia Province",
+      "nearest_city": "Punta Cana",
+      "eval_ms_sets": {
+        "country": [
+          "Dominican Republic"
+        ],
+        "admin1": [
+          "Dominican Republic",
+          "La Altagracia Province"
+        ],
+        "full": [
+          "Dominican Republic",
+          "La Altagracia Province",
+          "Punta Cana"
+        ]
+      },
+      "eval_coord": {
+        "lat": 19.25,
+        "lon": -68.5
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 18.0,
+      "lon": -68.25,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Puerto Rico",
+      "admin1": "La Altagracia",
+      "nearest_city": "Batey 412",
+      "eval_ms_sets": {
+        "country": [
+          "Puerto Rico"
+        ],
+        "admin1": [
+          "Puerto Rico",
+          "La Altagracia"
+        ],
+        "full": [
+          "Puerto Rico",
+          "La Altagracia",
+          "Batey 412"
+        ]
+      },
+      "eval_coord": {
+        "lat": 18.0,
+        "lon": -68.25
+      }
+    },
+    "impact_summary": "Wind impacts are highly uneven around the circulation, with the strongest gusts confined to a narrow sector close to the center, favoring localized episodes of tree damage, minor structural strain, and hazardous conditions for small vessels and exposed coastal stretches where the intense quadrant comes ashore. Rainfall is extremely concentrated near the core in compact clusters, so only a small area experiences very intense downpours; where these cells persist or repeatedly track over the same locations, they can trigger rapid surface runoff, short-fuse flash flooding, and localized slope failures on steep terrain. Overall, short-duration but very intense rainfall in a confined zone is the primary hazard, with wind effects remaining more localized and generally secondary."
+  },
+  {
+    "disno": "1979-0088-USA",
+    "start": "1979-09-12",
+    "end": "1979-09-12",
+    "max_wind_ms": 11.132196426391602,
+    "max_rain_mm": 27.431011199951172,
+    "max_rain_bin": "20-50",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.80125,
+    "rain_coverage_frac": 0.0,
+    "wind_coverage_text": "broad wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "SE",
+    "wind_max_quadrant": "SE",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 6, Strong breeze",
+    "max_rain_text": "moderate rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 47.75,
+      "lon": -56.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Canada",
+      "admin1": "Newfoundland and Labrador",
+      "nearest_city": "Grey River"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 44.5,
+      "lon": -60.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Canada",
+      "admin1": "Nova Scotia",
+      "nearest_city": "Little Harbour",
+      "eval_ms_sets": {
+        "country": [
+          "Canada"
+        ],
+        "admin1": [
+          "Canada",
+          "Nova Scotia"
+        ],
+        "full": [
+          "Canada",
+          "Nova Scotia",
+          "Little Harbour"
+        ]
+      },
+      "eval_coord": {
+        "lat": 44.5,
+        "lon": -60.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 47.75,
+      "lon": -56.0,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Canada",
+      "admin1": "Newfoundland and Labrador",
+      "nearest_city": "Raymond Point",
+      "eval_ms_sets": {
+        "country": [
+          "Canada"
+        ],
+        "admin1": [
+          "Canada",
+          "Newfoundland and Labrador"
+        ],
+        "full": [
+          "Canada",
+          "Newfoundland and Labrador",
+          "Raymond Point"
+        ]
+      },
+      "eval_coord": {
+        "lat": 47.75,
+        "lon": -56.0
+      }
+    },
+    "impact_summary": "Wind impacts are spread over a large area, but the strongest gusts are confined to one side of the circulation, leading to uneven stress on exposed coasts and elevated wave action over a wide swath of the adjacent ocean. Over land, this favors scattered instances of tree damage, minor structural strain, and choppy inland waters rather than concentrated destruction. Rainfall is focused into a small region near the center with only patchy outer bands, so most locations see only brief showers or light, passing downpours. Where the core passes directly overhead, short-lived ponding and minor drainage issues are possible, but widespread river flooding is unlikely. Overall, wind-related effects and associated wave conditions are the primary hazard, with rainfall impacts remaining localized and modest."
+  },
+  {
+    "disno": "1979-0095-JPN",
+    "start": "1979-10-20",
+    "end": "1979-10-20",
+    "max_wind_ms": 11.103458404541016,
+    "max_rain_mm": 4.9915313720703125,
+    "max_rain_bin": "<20",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.33375,
+    "rain_coverage_frac": 0.0,
+    "wind_coverage_text": "moderately sized wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "SW",
+    "wind_max_quadrant": "SW",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "none",
+    "max_wind_text": "Beaufort 6, Strong breeze",
+    "max_rain_text": "light rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 38.75,
+      "lon": 132.75,
+      "land_sea": "sea",
+      "sea_area": "Japan Sea",
+      "country": "Russia",
+      "admin1": "Primorsky Krai",
+      "nearest_city": "Tigrovyi"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 38.75,
+      "lon": 137.75,
+      "land_sea": "sea",
+      "sea_area": "Japan Sea",
+      "country": "Japan",
+      "admin1": "Niigata",
+      "nearest_city": "Sado",
+      "eval_ms_sets": {
+        "country": [
+          "Japan"
+        ],
+        "admin1": [
+          "Japan",
+          "Niigata"
+        ],
+        "full": [
+          "Japan",
+          "Niigata",
+          "Japan Sea",
+          "Sado"
+        ]
+      },
+      "eval_coord": {
+        "lat": 38.75,
+        "lon": 137.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 36.75,
+      "lon": 136.0,
+      "land_sea": "sea",
+      "sea_area": "Japan Sea",
+      "country": "Japan",
+      "admin1": "Ishikawa",
+      "nearest_city": "Komatsu",
+      "eval_ms_sets": {
+        "country": [
+          "Japan"
+        ],
+        "admin1": [
+          "Japan",
+          "Ishikawa"
+        ],
+        "full": [
+          "Japan",
+          "Ishikawa",
+          "Japan Sea",
+          "Komatsu"
+        ]
+      },
+      "eval_coord": {
+        "lat": 36.75,
+        "lon": 136.0
+      }
+    },
+    "impact_summary": "The wind field is uneven, with one side of the system carrying most of the stronger gusts while the opposite side remains comparatively calmer, leading to patchy wind stress on exposed coasts and elevated terrain and only limited potential for minor structural or vegetation damage. Rainfall is weak and confined close to the center, with little sign of organized outer bands, so runoff is likely shallow and localized with minimal river response or slope destabilization. Given the weak and spatially restricted precipitation, wind is the primary, though still modest, hazard mechanism, and overall impacts are expected to be limited and highly localized."
+  },
+  {
+    "disno": "1979-0116-MUS",
+    "start": "1979-12-22",
+    "end": "1979-12-22",
+    "max_wind_ms": 10.880807876586914,
+    "max_rain_mm": 33.107757568359375,
+    "max_rain_bin": "20-50",
+    "wind_symmetry": "moderately_asymmetric",
+    "wind_coverage_frac": 0.835,
+    "rain_coverage_frac": 0.0,
+    "wind_coverage_text": "broad wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "NE",
+    "wind_max_quadrant": "NE",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 6, Strong breeze",
+    "max_rain_text": "moderate rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": -16.25,
+      "lon": 58.0,
+      "land_sea": "sea",
+      "sea_area": "Indian Ocean",
+      "country": "Mauritius",
+      "admin1": "Unknown admin1",
+      "nearest_city": null
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": -21.5,
+      "lon": 55.0,
+      "land_sea": "sea",
+      "sea_area": "Indian Ocean",
+      "country": "Réunion",
+      "admin1": "[no name]",
+      "nearest_city": "Sainte-Marie",
+      "eval_ms_sets": {
+        "country": [
+          "Réunion"
+        ],
+        "admin1": [
+          "Réunion"
+        ],
+        "full": [
+          "Réunion",
+          "Indian Ocean",
+          "Sainte-Marie"
+        ]
+      },
+      "eval_coord": {
+        "lat": -21.5,
+        "lon": 55.0
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": -18.5,
+      "lon": 58.5,
+      "land_sea": "sea",
+      "sea_area": "Indian Ocean",
+      "country": "Mauritius",
+      "admin1": "Unknown admin1",
+      "nearest_city": null,
+      "eval_ms_sets": {
+        "country": [
+          "Mauritius"
+        ],
+        "admin1": [
+          "Mauritius"
+        ],
+        "full": [
+          "Mauritius",
+          "Indian Ocean"
+        ]
+      },
+      "eval_coord": {
+        "lat": -18.5,
+        "lon": 58.5
+      }
+    },
+    "impact_summary": "The circulation produces a broad area of steady winds, with somewhat stronger flow concentrated on one side of the system, leading to prolonged wave buildup and choppy seas across an extensive marine region. Over land, these winds are more likely to cause minor structural strain, scattered debris, and stress on trees and crops than widespread damage. In contrast, rainfall is confined to a small portion of the system, organized into a few compact clusters that bring short-lived, localized downpours and only modest potential for surface ponding or brief stream responses. Overall, wind and associated marine conditions are the primary hazard, while rainfall impacts remain localized and limited."
+  },
+  {
+    "disno": "1979-0128-GLP",
+    "start": "1979-08-01",
+    "end": "1979-08-31",
+    "max_wind_ms": 17.016429901123047,
+    "max_rain_mm": 227.94247436523438,
+    "max_rain_bin": ">=200",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.771875,
+    "rain_coverage_frac": 0.27999999999999997,
+    "wind_coverage_text": "broad wind field",
+    "rain_coverage_text": "compact rainfall area",
+    "rain_asym_dir": "SE",
+    "wind_max_quadrant": "SE",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 7, Near gale",
+    "max_rain_text": "extreme rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 16.5,
+      "lon": -64.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Puerto Rico",
+      "admin1": "Arecibo",
+      "nearest_city": "Arecibo"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 17.75,
+      "lon": -64.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "U.S. Virgin Islands",
+      "admin1": "St. Croix",
+      "nearest_city": "Christiansted",
+      "eval_ms_sets": {
+        "country": [
+          "U.S. Virgin Islands"
+        ],
+        "admin1": [
+          "U.S. Virgin Islands",
+          "St. Croix"
+        ],
+        "full": [
+          "U.S. Virgin Islands",
+          "St. Croix",
+          "Christiansted"
+        ]
+      },
+      "eval_coord": {
+        "lat": 17.75,
+        "lon": -64.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 17.25,
+      "lon": -63.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Curaçao",
+      "admin1": "Curaçao",
+      "nearest_city": "Willemstad",
+      "eval_ms_sets": {
+        "country": [
+          "Curaçao"
+        ],
+        "admin1": [
+          "Curaçao",
+          "Curaçao"
+        ],
+        "full": [
+          "Curaçao",
+          "Curaçao",
+          "Willemstad"
+        ]
+      },
+      "eval_coord": {
+        "lat": 17.25,
+        "lon": -63.75
+      }
+    },
+    "impact_summary": "The wind field is extensive but uneven, with stronger gusts focused on one side of the circulation and more modest conditions elsewhere, leading to patchy wind damage potential and prolonged choppy seas over a wide marine area. Exposed coasts and headlands on the windward side would face the greatest risk of downed branches, minor structural strain, and hazardous wave conditions. Rainfall is concentrated near the core with embedded convective elements, favoring very intense downpours over a relatively small footprint and supporting rapid runoff, flash flooding in small catchments, and localized slope failures. Overall, short‑fuse flooding from intense localized rainfall is the dominant hazard, with wind effects more widespread but generally less severe."
+  },
+  {
+    "disno": "1979-0133-PHL",
+    "start": "1979-08-09",
+    "end": "1979-08-09",
+    "max_wind_ms": 11.39593505859375,
+    "max_rain_mm": 54.431915283203125,
+    "max_rain_bin": "50-100",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.3925,
+    "rain_coverage_frac": 0.005,
+    "wind_coverage_text": "moderately sized wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "NE",
+    "wind_max_quadrant": "SE",
+    "wind_rain_co_loc": "different",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 6, Strong breeze",
+    "max_rain_text": "heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 17.75,
+      "lon": 117.0,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "Philippines",
+      "admin1": "Cagayan Valley",
+      "nearest_city": "Penablanca"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 15.5,
+      "lon": 117.0,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "Philippines",
+      "admin1": "Cagayan Valley",
+      "nearest_city": "Basco",
+      "eval_ms_sets": {
+        "country": [
+          "Philippines"
+        ],
+        "admin1": [
+          "Philippines",
+          "Cagayan Valley"
+        ],
+        "full": [
+          "Philippines",
+          "Cagayan Valley",
+          "South China Sea",
+          "Basco"
+        ]
+      },
+      "eval_coord": {
+        "lat": 15.5,
+        "lon": 117.0
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 15.75,
+      "lon": 119.5,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "Philippines",
+      "admin1": "Central Luzon",
+      "nearest_city": "Santa Cruz",
+      "eval_ms_sets": {
+        "country": [
+          "Philippines"
+        ],
+        "admin1": [
+          "Philippines",
+          "Central Luzon"
+        ],
+        "full": [
+          "Philippines",
+          "Central Luzon",
+          "South China Sea",
+          "Santa Cruz"
+        ]
+      },
+      "eval_coord": {
+        "lat": 15.75,
+        "lon": 119.5
+      }
+    },
+    "impact_summary": "Wind impacts are unevenly distributed around the circulation, with a distinct favored side where stronger gusts and short-lived squalls can cause minor structural strain, tree damage, and choppy nearshore conditions. Because the stronger flow extends a moderate distance from the center, exposed headlands and elevated terrain on that active flank face the greatest wind-related stress. Rainfall is concentrated in compact clusters near the core, so intense showers are likely confined to a narrow corridor along the track, favoring brief but vigorous downpours that can trigger localized ponding, short-lived drainage issues, and small-scale slope failures rather than broad river flooding. Overall, wind-related effects slightly outweigh rainfall impacts because the rain field is so spatially restricted."
+  },
+  {
+    "disno": "1979-0134-PHL",
+    "start": "1979-09-16",
+    "end": "1979-09-16",
+    "max_wind_ms": 5.993587970733643,
+    "max_rain_mm": 35.495758056640625,
+    "max_rain_bin": "20-50",
+    "wind_symmetry": "moderately_asymmetric",
+    "wind_coverage_frac": 0.3275,
+    "rain_coverage_frac": 0.0,
+    "wind_coverage_text": "moderately sized wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "SE",
+    "wind_max_quadrant": "SE",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 4, Moderate breeze",
+    "max_rain_text": "moderate rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 13.5,
+      "lon": 117.0,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "Philippines",
+      "admin1": "Mimaropa",
+      "nearest_city": "Santa Cruz"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 15.0,
+      "lon": 119.0,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "Philippines",
+      "admin1": "Central Luzon",
+      "nearest_city": "San Antonio",
+      "eval_ms_sets": {
+        "country": [
+          "Philippines"
+        ],
+        "admin1": [
+          "Philippines",
+          "Central Luzon"
+        ],
+        "full": [
+          "Philippines",
+          "Central Luzon",
+          "South China Sea",
+          "San Antonio"
+        ]
+      },
+      "eval_coord": {
+        "lat": 15.0,
+        "lon": 119.0
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 14.25,
+      "lon": 120.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Philippines",
+      "admin1": "Calabarzon",
+      "nearest_city": "Maragondon",
+      "eval_ms_sets": {
+        "country": [
+          "Philippines"
+        ],
+        "admin1": [
+          "Philippines",
+          "Calabarzon"
+        ],
+        "full": [
+          "Philippines",
+          "Calabarzon",
+          "Maragondon"
+        ]
+      },
+      "eval_coord": {
+        "lat": 14.25,
+        "lon": 120.75
+      }
+    },
+    "impact_summary": "Winds are organized over a modest area with some directional imbalance, so any gust-related stress would be patchy and generally limited to exposed ridges, headlands, and open water, with only minor potential for structural or vegetation damage. Short-lived choppy seas and small waves could affect nearshore and small-craft conditions along the immediate path. Rainfall is confined to a small core region with scattered convective elements, suggesting brief, locally enhanced showers rather than widespread heavy precipitation. This pattern favors short-duration ponding and minor, localized rises in small streams, with low likelihood of extensive river flooding or deep-seated slope failures. Overall, neither wind nor rain clearly dominates, with both hazards remaining relatively modest and spatially limited."
+  },
+  {
+    "disno": "1979-0137-PHL",
+    "start": "1979-11-04",
+    "end": "1979-11-04",
+    "max_wind_ms": 9.639749526977539,
+    "max_rain_mm": 69.28205871582031,
+    "max_rain_bin": "50-100",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.3025,
+    "rain_coverage_frac": 0.015625,
+    "wind_coverage_text": "moderately sized wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "SW",
+    "wind_max_quadrant": "NW",
+    "wind_rain_co_loc": "different",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 5, Fresh breeze",
+    "max_rain_text": "heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 11.5,
+      "lon": 126.75,
+      "land_sea": "sea",
+      "sea_area": "Philippine Sea",
+      "country": "Philippines",
+      "admin1": "Caraga",
+      "nearest_city": "Loreto"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 13.0,
+      "lon": 126.75,
+      "land_sea": "sea",
+      "sea_area": "Philippine Sea",
+      "country": "Philippines",
+      "admin1": "Eastern Visayas",
+      "nearest_city": "Ormoc City",
+      "eval_ms_sets": {
+        "country": [
+          "Philippines"
+        ],
+        "admin1": [
+          "Philippines",
+          "Eastern Visayas"
+        ],
+        "full": [
+          "Philippines",
+          "Eastern Visayas",
+          "Philippine Sea",
+          "Ormoc City"
+        ]
+      },
+      "eval_coord": {
+        "lat": 13.0,
+        "lon": 126.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 10.75,
+      "lon": 126.75,
+      "land_sea": "sea",
+      "sea_area": "Philippine Sea",
+      "country": "Philippines",
+      "admin1": "Eastern Visayas",
+      "nearest_city": "Guiuan",
+      "eval_ms_sets": {
+        "country": [
+          "Philippines"
+        ],
+        "admin1": [
+          "Philippines",
+          "Eastern Visayas"
+        ],
+        "full": [
+          "Philippines",
+          "Eastern Visayas",
+          "Philippine Sea",
+          "Guiuan"
+        ]
+      },
+      "eval_coord": {
+        "lat": 10.75,
+        "lon": 126.75
+      }
+    },
+    "impact_summary": "Wind impacts are unevenly distributed around the circulation, with one side experiencing noticeably stronger gusts and short-lived squalls as the system passes, and the area of meaningful wind stress being of moderate extent, allowing for scattered instances of minor structural strain, downed small branches, and choppy to rough nearshore waters along the more exposed flank. Rainfall is confined to a small region near the center and in a few compact bands, so heavy showers are likely to be brief and patchy, favoring localized ponding and short-lived stream rises rather than widespread river flooding, with only limited potential for shallow slope failures where bursts of rain align with steep terrain. Overall, wind-related effects slightly outweigh rainfall impacts, though both remain relatively modest and spatially constrained."
+  },
+  {
+    "disno": "1979-0185-AIA",
+    "start": "1979-09-03",
+    "end": "1979-09-03",
+    "max_wind_ms": 14.22359848022461,
+    "max_rain_mm": 108.11280822753906,
+    "max_rain_bin": "100-150",
+    "wind_symmetry": "moderately_asymmetric",
+    "wind_coverage_frac": 0.601875,
+    "rain_coverage_frac": 0.11124999999999999,
+    "wind_coverage_text": "broad wind field",
+    "rain_coverage_text": "compact rainfall area",
+    "rain_asym_dir": "SE",
+    "wind_max_quadrant": "NW",
+    "wind_rain_co_loc": "different",
+    "rainband_type": "diffuse",
+    "max_wind_text": "Beaufort 7, Near gale",
+    "max_rain_text": "very heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 17.0,
+      "lon": -63.0,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Caribbean Netherlands",
+      "admin1": "Sint Eustatius",
+      "nearest_city": "Oranjestad"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 18.75,
+      "lon": -60.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Unknown country",
+      "admin1": "Unknown admin1",
+      "nearest_city": null,
+      "eval_ms_sets": {
+        "country": [],
+        "admin1": [],
+        "full": []
+      },
+      "eval_coord": {
+        "lat": 18.75,
+        "lon": -60.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 17.0,
+      "lon": -59.0,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Unknown country",
+      "admin1": "Unknown admin1",
+      "nearest_city": null,
+      "eval_ms_sets": {
+        "country": [],
+        "admin1": [],
+        "full": []
+      },
+      "eval_coord": {
+        "lat": 17.0,
+        "lon": -59.0
+      }
+    },
+    "impact_summary": "The circulation produces a wide swath of brisk winds extending well away from the center, leading to scattered wind damage potential such as downed branches and localized structural strain, especially in exposed and elevated areas. Over open water and along open coasts, the broad windy zone can maintain rough seas and hazardous wave conditions over an extended region. Rainfall is focused near the core, with the most intense downpours confined to a relatively small area despite the large wind envelope, favoring localized flash flooding and short-response river rises where the core stalls or moves slowly. Overall, rainfall-driven flooding near the center is the primary hazard, with wind effects more widespread but generally less severe."
+  },
+  {
+    "disno": "1979-0210-HKG",
+    "start": "1979-09-23",
+    "end": "1979-09-23",
+    "max_wind_ms": 10.503796577453613,
+    "max_rain_mm": 158.31231689453125,
+    "max_rain_bin": "150-200",
+    "wind_symmetry": "moderately_asymmetric",
+    "wind_coverage_frac": 0.354375,
+    "rain_coverage_frac": 0.14125000000000001,
+    "wind_coverage_text": "moderately sized wind field",
+    "rain_coverage_text": "compact rainfall area",
+    "rain_asym_dir": null,
+    "wind_max_quadrant": "SW",
+    "wind_rain_co_loc": null,
+    "rainband_type": "weak_clustered",
+    "max_wind_text": "Beaufort 5, Fresh breeze",
+    "max_rain_text": "very heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 21.5,
+      "lon": 113.25,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "China",
+      "admin1": "Guangdong Province",
+      "nearest_city": "Zhuhai"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 22.25,
+      "lon": 115.5,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "China",
+      "admin1": "Guangdong Province",
+      "nearest_city": "Shanwei",
+      "eval_ms_sets": {
+        "country": [
+          "China"
+        ],
+        "admin1": [
+          "China",
+          "Guangdong Province"
+        ],
+        "full": [
+          "China",
+          "Guangdong Province",
+          "South China Sea",
+          "Shanwei"
+        ]
+      },
+      "eval_coord": {
+        "lat": 22.25,
+        "lon": 115.5
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 22.75,
+      "lon": 115.25,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "China",
+      "admin1": "Guangdong Province",
+      "nearest_city": "Shanwei",
+      "eval_ms_sets": {
+        "country": [
+          "China"
+        ],
+        "admin1": [
+          "China",
+          "Guangdong Province"
+        ],
+        "full": [
+          "China",
+          "Guangdong Province",
+          "South China Sea",
+          "Shanwei"
+        ]
+      },
+      "eval_coord": {
+        "lat": 22.75,
+        "lon": 115.25
+      }
+    },
+    "impact_summary": "Wind effects are modest, with a somewhat lopsided structure that concentrates stronger gusts in one sector but generally limits the depth of mechanical stress on trees, light structures, and small craft, while still creating choppy seas and brief squalls near the core and along exposed waters. Rainfall is focused near the center with patchy outer bands, favoring short-range but intense downpours where convective cells repeatedly pass, which supports localized flash flooding, rapid ponding in low-lying areas, and minor slope destabilization where terrain enhances uplift. Overall, rainfall-driven flooding processes are the primary hazard, with wind effects remaining secondary and relatively mild."
+  },
+  {
+    "disno": "1979-0242-AUS",
+    "start": "1979-03-01",
+    "end": "1979-03-31",
+    "max_wind_ms": 9.510904312133789,
+    "max_rain_mm": 115.66781616210938,
+    "max_rain_bin": "100-150",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.946875,
+    "rain_coverage_frac": 0.04,
+    "wind_coverage_text": "very broad wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "SE",
+    "wind_max_quadrant": "SE",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 5, Fresh breeze",
+    "max_rain_text": "very heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": -21.0,
+      "lon": 116.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Australia",
+      "admin1": "Western Australia",
+      "nearest_city": "Maitland"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": -21.0,
+      "lon": 116.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Australia",
+      "admin1": "Western Australia",
+      "nearest_city": "Maitland",
+      "eval_ms_sets": {
+        "country": [
+          "Australia"
+        ],
+        "admin1": [
+          "Australia",
+          "Western Australia"
+        ],
+        "full": [
+          "Australia",
+          "Western Australia",
+          "Maitland"
+        ]
+      },
+      "eval_coord": {
+        "lat": -21.0,
+        "lon": 116.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": -21.75,
+      "lon": 118.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Australia",
+      "admin1": "Western Australia",
+      "nearest_city": null,
+      "eval_ms_sets": {
+        "country": [
+          "Australia"
+        ],
+        "admin1": [
+          "Australia",
+          "Western Australia"
+        ],
+        "full": [
+          "Australia",
+          "Western Australia"
+        ]
+      },
+      "eval_coord": {
+        "lat": -21.75,
+        "lon": 118.75
+      }
+    },
+    "impact_summary": "The circulation exhibits a lopsided wind pattern with gentle to moderate winds spread over a wide swath, favoring long-duration choppy seas, coastal wave action, and minor structural strain rather than sharply focused, high-end gust damage. Exposed shorelines and marine areas would mainly contend with persistent onshore flow and elevated surf. In contrast, rainfall is tightly confined near the center, where intense downpours can rapidly generate localized flash flooding, brief surges in small streams, and short-lived ponding in low-lying spots. Because the wet footprint is small, large river basins are less likely to experience extensive flooding. Overall, localized flooding from intense but spatially limited rainfall is the dominant hazard, while wind impacts are widespread but comparatively modest."
+  },
+  {
+    "disno": "1979-0280-PRI",
+    "start": "1979-08-01",
+    "end": "1979-08-31",
+    "max_wind_ms": 17.48394012451172,
+    "max_rain_mm": 241.1451416015625,
+    "max_rain_bin": ">=200",
+    "wind_symmetry": "symmetric",
+    "wind_coverage_frac": 0.846875,
+    "rain_coverage_frac": 0.27999999999999997,
+    "wind_coverage_text": "broad wind field",
+    "rain_coverage_text": "compact rainfall area",
+    "rain_asym_dir": "SE",
+    "wind_max_quadrant": null,
+    "wind_rain_co_loc": null,
+    "rainband_type": "weak_clustered",
+    "max_wind_text": "Beaufort 8, Gale",
+    "max_rain_text": "extreme rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 17.5,
+      "lon": -68.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Dominican Republic",
+      "admin1": "La Altagracia",
+      "nearest_city": "Batey 412"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 17.75,
+      "lon": -67.25,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Puerto Rico",
+      "admin1": "Cabo Rojo",
+      "nearest_city": "El Combate",
+      "eval_ms_sets": {
+        "country": [
+          "Puerto Rico"
+        ],
+        "admin1": [
+          "Puerto Rico",
+          "Cabo Rojo"
+        ],
+        "full": [
+          "Puerto Rico",
+          "Cabo Rojo",
+          "El Combate"
+        ]
+      },
+      "eval_coord": {
+        "lat": 17.75,
+        "lon": -67.25
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 18.0,
+      "lon": -68.25,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Puerto Rico",
+      "admin1": "La Altagracia",
+      "nearest_city": "Batey 412",
+      "eval_ms_sets": {
+        "country": [
+          "Puerto Rico"
+        ],
+        "admin1": [
+          "Puerto Rico",
+          "La Altagracia"
+        ],
+        "full": [
+          "Puerto Rico",
+          "La Altagracia",
+          "Batey 412"
+        ]
+      },
+      "eval_coord": {
+        "lat": 18.0,
+        "lon": -68.25
+      }
+    },
+    "impact_summary": "The circulation shows a fairly even distribution of gusts around the center, with a wide area experiencing persistent strong winds that can stress vegetation, unsecured objects, and exposed coastal and marine interests. The broad footprint of these winds increases the chance of choppy seas and hazardous conditions for small craft over a large surrounding region. Rainfall is concentrated near the core, with very intense downpours focused over a relatively small area, favoring rapid runoff and short-fuse flash flooding where the system slows or repeats over the same locations. The weakly organized outer bands confine the greatest accumulations to the inner zone, where saturation and localized slope failures become a concern. Overall, concentrated rainfall near the center is the primary hazard, with wind effects more widespread but generally of secondary importance."
+  },
+  {
+    "disno": "1980-0029-REU",
+    "start": "1980-01-27",
+    "end": "1980-01-27",
+    "max_wind_ms": 16.878244400024414,
+    "max_rain_mm": 167.59156799316406,
+    "max_rain_bin": "150-200",
+    "wind_symmetry": "symmetric",
+    "wind_coverage_frac": 0.881875,
+    "rain_coverage_frac": 0.14187499999999997,
+    "wind_coverage_text": "very broad wind field",
+    "rain_coverage_text": "compact rainfall area",
+    "rain_asym_dir": "SE",
+    "wind_max_quadrant": null,
+    "wind_rain_co_loc": null,
+    "rainband_type": "diffuse",
+    "max_wind_text": "Beaufort 7, Near gale",
+    "max_rain_text": "very heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": -22.5,
+      "lon": 56.0,
+      "land_sea": "sea",
+      "sea_area": "Indian Ocean",
+      "country": "Mauritius",
+      "admin1": "Unknown admin1",
+      "nearest_city": null
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": -20.5,
+      "lon": 55.75,
+      "land_sea": "sea",
+      "sea_area": "Indian Ocean",
+      "country": "Réunion",
+      "admin1": "Saint-Paul",
+      "nearest_city": "Saint-Paul",
+      "eval_ms_sets": {
+        "country": [
+          "Réunion"
+        ],
+        "admin1": [
+          "Réunion",
+          "Saint-Paul"
+        ],
+        "full": [
+          "Réunion",
+          "Saint-Paul",
+          "Indian Ocean",
+          "Saint-Paul"
+        ]
+      },
+      "eval_coord": {
+        "lat": -20.5,
+        "lon": 55.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": -24.25,
+      "lon": 57.0,
+      "land_sea": "sea",
+      "sea_area": "Indian Ocean",
+      "country": "Unknown country",
+      "admin1": "Unknown admin1",
+      "nearest_city": null,
+      "eval_ms_sets": {
+        "country": [],
+        "admin1": [],
+        "full": [
+          "Indian Ocean"
+        ]
+      },
+      "eval_coord": {
+        "lat": -24.25,
+        "lon": 57.0
+      }
+    },
+    "impact_summary": "The wind field is extensive and fairly even around the center, so areas far from the core can still experience persistent gusts and wave buildup over open water, favoring broad marine hazards such as rough seas and long-period swells with onshore sectors exposed to prolonged wind stress but generally limited structural damage potential. Rainfall is focused close to the center, with the most intense downpours confined to a relatively small zone, supporting localized flash flooding and short-response river rises where the core passes slowly while surrounding regions mainly see lighter, more intermittent showers. Overall, rainfall near the core is the primary driver of damaging impacts, with winds and waves contributing more broadly but less intensely."
+  },
+  {
+    "disno": "1980-0036-FJI",
+    "start": "1980-03-24",
+    "end": "1980-03-24",
+    "max_wind_ms": 7.030542373657227,
+    "max_rain_mm": 1.2240409851074219,
+    "max_rain_bin": "<20",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.81875,
+    "rain_coverage_frac": 0.0,
+    "wind_coverage_text": "broad wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "NW",
+    "wind_max_quadrant": "NW",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "none",
+    "max_wind_text": "Beaufort 4, Moderate breeze",
+    "max_rain_text": "light rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": -12.75,
+      "lon": 4.0,
+      "land_sea": "sea",
+      "sea_area": "South Atlantic Ocean",
+      "country": "Unknown country",
+      "admin1": "Unknown admin1",
+      "nearest_city": null
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": -18.0,
+      "lon": 4.0,
+      "land_sea": "sea",
+      "sea_area": "South Atlantic Ocean",
+      "country": "Unknown country",
+      "admin1": "Unknown admin1",
+      "nearest_city": null,
+      "eval_ms_sets": {
+        "country": [],
+        "admin1": [],
+        "full": [
+          "South Atlantic Ocean"
+        ]
+      },
+      "eval_coord": {
+        "lat": -18.0,
+        "lon": 4.0
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": -19.5,
+      "lon": -5.75,
+      "land_sea": "sea",
+      "sea_area": "South Atlantic Ocean",
+      "country": "Saint Helena, Ascension and Tristan da Cunha",
+      "admin1": "Unknown admin1",
+      "nearest_city": null,
+      "eval_ms_sets": {
+        "country": [
+          "Saint Helena, Ascension and Tristan da Cunha"
+        ],
+        "admin1": [
+          "Saint Helena, Ascension and Tristan da Cunha"
+        ],
+        "full": [
+          "Saint Helena, Ascension and Tristan da Cunha",
+          "South Atlantic Ocean"
+        ]
+      },
+      "eval_coord": {
+        "lat": -19.5,
+        "lon": -5.75
+      }
+    },
+    "impact_summary": "Winds are spread over a wide area but remain relatively gentle, with somewhat stronger gusts confined to one side of the circulation, producing mainly choppy seas and minor strain on exposed vegetation and small craft while leaving most land areas with only modest wind stress. Structural damage is unlikely except in very localized, highly exposed spots. Rainfall is sparse and tightly confined near the center, with little sign of organized bands, so showers are brief and light, limiting runoff and making notable river response or landslide initiation improbable. Overall, wind-related marine and coastal exposure is the slightly more relevant mechanism, though both wind and rain hazards remain subdued."
+  },
+  {
+    "disno": "1980-0038-BGD",
+    "start": "1980-04-01",
+    "end": "1980-04-30",
+    "max_wind_ms": 11.34397029876709,
+    "max_rain_mm": 249.09066772460938,
+    "max_rain_bin": ">=200",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.243125,
+    "rain_coverage_frac": 0.063125,
+    "wind_coverage_text": "compact wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "NE",
+    "wind_max_quadrant": "NE",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 6, Strong breeze",
+    "max_rain_text": "extreme rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 26.5,
+      "lon": 86.25,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "India",
+      "admin1": "Bihar",
+      "nearest_city": "Tola Barhmotar"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 19.25,
+      "lon": 85.5,
+      "land_sea": "sea",
+      "sea_area": "Bay of Bengal",
+      "country": "India",
+      "admin1": "Odisha",
+      "nearest_city": "Udayagiri",
+      "eval_ms_sets": {
+        "country": [
+          "India"
+        ],
+        "admin1": [
+          "India",
+          "Odisha"
+        ],
+        "full": [
+          "India",
+          "Odisha",
+          "Bay of Bengal",
+          "Udayagiri"
+        ]
+      },
+      "eval_coord": {
+        "lat": 19.25,
+        "lon": 85.5
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 28.25,
+      "lon": 95.25,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "India",
+      "admin1": "Arunachal Pradesh",
+      "nearest_city": null,
+      "eval_ms_sets": {
+        "country": [
+          "India"
+        ],
+        "admin1": [
+          "India",
+          "Arunachal Pradesh"
+        ],
+        "full": [
+          "India",
+          "Arunachal Pradesh"
+        ]
+      },
+      "eval_coord": {
+        "lat": 28.25,
+        "lon": 95.25
+      }
+    },
+    "impact_summary": "Wind effects are unevenly distributed around a small core, with one side experiencing noticeably stronger gusts and short-lived squalls, favoring localized damage to exposed vegetation and light structures, as well as choppy seas and hazardous conditions for small vessels near the core. Rainfall is extremely intense but confined to a narrow zone close to the center and within a few compact clusters, leading to very focused bursts of runoff. Where these clusters stall or repeat, there is elevated potential for flash flooding and rapid ponding. Overall, concentrated rainfall-driven flooding is the primary hazard, with wind impacts remaining secondary and spatially restricted."
+  },
+  {
+    "disno": "1980-0052-PAK",
+    "start": "1980-06-13",
+    "end": "1980-06-13",
+    "max_wind_ms": 8.960410118103027,
+    "max_rain_mm": 59.894561767578125,
+    "max_rain_bin": "50-100",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.228125,
+    "rain_coverage_frac": 0.0025,
+    "wind_coverage_text": "compact wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "NE",
+    "wind_max_quadrant": "NE",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 5, Fresh breeze",
+    "max_rain_text": "heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 27.5,
+      "lon": 67.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Pakistan",
+      "admin1": "Sindh",
+      "nearest_city": "Kalhora"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 26.75,
+      "lon": 69.0,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Pakistan",
+      "admin1": "Sindh",
+      "nearest_city": "Toorke",
+      "eval_ms_sets": {
+        "country": [
+          "Pakistan"
+        ],
+        "admin1": [
+          "Pakistan",
+          "Sindh"
+        ],
+        "full": [
+          "Pakistan",
+          "Sindh",
+          "Toorke"
+        ]
+      },
+      "eval_coord": {
+        "lat": 26.75,
+        "lon": 69.0
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 33.75,
+      "lon": 73.25,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Pakistan",
+      "admin1": "Islamabad Capital Territory",
+      "nearest_city": "Islamabad",
+      "eval_ms_sets": {
+        "country": [
+          "Pakistan"
+        ],
+        "admin1": [
+          "Pakistan",
+          "Islamabad Capital Territory"
+        ],
+        "full": [
+          "Pakistan",
+          "Islamabad Capital Territory",
+          "Islamabad"
+        ]
+      },
+      "eval_coord": {
+        "lat": 33.75,
+        "lon": 73.25
+      }
+    },
+    "impact_summary": "Wind effects are unevenly distributed around the system, with a narrow zone of stronger flow on one side of the circulation and much lighter conditions elsewhere, favoring localized gust-related stress on exposed terrain and choppy seas in a confined marine corridor rather than broad wind damage. Rainfall is focused into a small footprint near the center, with short, intense showers instead of a wide shield of steady rain, supporting brief but efficient runoff generation and ponding close to the track while surrounding areas see only modest precipitation. Overall, rainfall-driven effects slightly outweigh wind-related impacts, but both remain spatially restricted."
+  },
+  {
+    "disno": "1980-0059-KOR",
+    "start": "1980-07-01",
+    "end": "1980-07-31",
+    "max_wind_ms": 12.75504207611084,
+    "max_rain_mm": 177.87599182128906,
+    "max_rain_bin": "150-200",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.675625,
+    "rain_coverage_frac": 0.52875,
+    "wind_coverage_text": "broad wind field",
+    "rain_coverage_text": "moderate rainfall area",
+    "rain_asym_dir": "SW",
+    "wind_max_quadrant": "SW",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 6, Strong breeze",
+    "max_rain_text": "very heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 39.0,
+      "lon": 132.5,
+      "land_sea": "sea",
+      "sea_area": "Japan Sea",
+      "country": "South Korea",
+      "admin1": "Primorsky Krai",
+      "nearest_city": "Ivanovka"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 39.75,
+      "lon": 133.25,
+      "land_sea": "sea",
+      "sea_area": "Japan Sea",
+      "country": "Russia",
+      "admin1": "Primorsky Krai",
+      "nearest_city": "Vasil'kovka",
+      "eval_ms_sets": {
+        "country": [
+          "Russia"
+        ],
+        "admin1": [
+          "Russia",
+          "Primorsky Krai"
+        ],
+        "full": [
+          "Russia",
+          "Primorsky Krai",
+          "Japan Sea",
+          "Vasil'kovka"
+        ]
+      },
+      "eval_coord": {
+        "lat": 39.75,
+        "lon": 133.25
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 35.0,
+      "lon": 125.5,
+      "land_sea": "sea",
+      "sea_area": "Yellow Sea",
+      "country": "South Korea",
+      "admin1": "Jeollanam-do",
+      "nearest_city": "Hampyeong",
+      "eval_ms_sets": {
+        "country": [
+          "South Korea"
+        ],
+        "admin1": [
+          "South Korea",
+          "Jeollanam-do"
+        ],
+        "full": [
+          "South Korea",
+          "Jeollanam-do",
+          "Yellow Sea",
+          "Hampyeong"
+        ]
+      },
+      "eval_coord": {
+        "lat": 35.0,
+        "lon": 125.5
+      }
+    },
+    "impact_summary": "The wind field is spread over a wide area but with a clear directional bias, so the strongest gusts and wave generation are focused on one side of the circulation, favoring choppy seas, hazardous conditions for small vessels, and scattered instances of minor structural or tree damage rather than concentrated destruction. Rainfall is organized in clusters around the system, producing intermittent but intense downpours separated by lulls that can trigger localized flash flooding, brief but sharp rises on small rivers, and temporary drainage overload where successive bands pass over the same locations. Overall, rainfall-driven flooding potential is the primary hazard, with wind effects playing a secondary but still relevant role over exposed land and marine areas."
+  },
+  {
+    "disno": "1980-0067-PHL",
+    "start": "1980-07-21",
+    "end": "1980-07-21",
+    "max_wind_ms": 13.12997817993164,
+    "max_rain_mm": 122.07221984863281,
+    "max_rain_bin": "100-150",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.4975,
+    "rain_coverage_frac": 0.0875,
+    "wind_coverage_text": "moderately sized wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "SW",
+    "wind_max_quadrant": "SW",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 6, Strong breeze",
+    "max_rain_text": "very heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 17.75,
+      "lon": 117.0,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "Philippines",
+      "admin1": "Cagayan Valley",
+      "nearest_city": "Penablanca"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 17.75,
+      "lon": 122.5,
+      "land_sea": "sea",
+      "sea_area": "Philippine Sea",
+      "country": "Philippines",
+      "admin1": "Cagayan Valley",
+      "nearest_city": "Maconacon",
+      "eval_ms_sets": {
+        "country": [
+          "Philippines"
+        ],
+        "admin1": [
+          "Philippines",
+          "Cagayan Valley"
+        ],
+        "full": [
+          "Philippines",
+          "Cagayan Valley",
+          "Philippine Sea",
+          "Maconacon"
+        ]
+      },
+      "eval_coord": {
+        "lat": 17.75,
+        "lon": 122.5
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 17.0,
+      "lon": 119.5,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "Philippines",
+      "admin1": "Ilocos Region",
+      "nearest_city": "Bolinao",
+      "eval_ms_sets": {
+        "country": [
+          "Philippines"
+        ],
+        "admin1": [
+          "Philippines",
+          "Ilocos Region"
+        ],
+        "full": [
+          "Philippines",
+          "Ilocos Region",
+          "South China Sea",
+          "Bolinao"
+        ]
+      },
+      "eval_coord": {
+        "lat": 17.0,
+        "lon": 119.5
+      }
+    },
+    "impact_summary": "The wind field is uneven, with stronger gusts focused on one side of the circulation and extending over a moderate area, favoring localized wind damage to exposed structures and vegetation in that sector. Coastal and marine zones within this favored quadrant may experience choppy seas and hazardous conditions for small craft. Rainfall is intense but confined to a small region near the core and in a few nearby bands, so flooding risk is concentrated where these narrow plumes repeatedly pass. This pattern supports short-duration flash flooding and localized slope failures rather than widespread basin-scale inundation. Overall, rainfall-driven flooding processes are the primary hazard, with wind effects playing a secondary but still relevant role in the more exposed sectors."
+  },
+  {
+    "disno": "1980-0068-VNM",
+    "start": "1980-07-23",
+    "end": "1980-07-23",
+    "max_wind_ms": 12.863799095153809,
+    "max_rain_mm": 251.22642517089844,
+    "max_rain_bin": ">=200",
+    "wind_symmetry": "moderately_asymmetric",
+    "wind_coverage_frac": 0.22125,
+    "rain_coverage_frac": 0.23125,
+    "wind_coverage_text": "compact wind field",
+    "rain_coverage_text": "compact rainfall area",
+    "rain_asym_dir": "SW",
+    "wind_max_quadrant": null,
+    "wind_rain_co_loc": null,
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 6, Strong breeze",
+    "max_rain_text": "extreme rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 21.0,
+      "lon": 105.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Vietnam",
+      "admin1": "Hà Nội",
+      "nearest_city": null
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 21.25,
+      "lon": 108.75,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "China",
+      "admin1": "Guangxi",
+      "nearest_city": "Beihai",
+      "eval_ms_sets": {
+        "country": [
+          "China"
+        ],
+        "admin1": [
+          "China",
+          "Guangxi"
+        ],
+        "full": [
+          "China",
+          "Guangxi",
+          "South China Sea",
+          "Beihai"
+        ]
+      },
+      "eval_coord": {
+        "lat": 21.25,
+        "lon": 108.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 21.75,
+      "lon": 104.5,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "Vietnam",
+      "admin1": "Yên Bái",
+      "nearest_city": null,
+      "eval_ms_sets": {
+        "country": [
+          "Vietnam"
+        ],
+        "admin1": [
+          "Vietnam",
+          "Yên Bái"
+        ],
+        "full": [
+          "Vietnam",
+          "Yên Bái"
+        ]
+      },
+      "eval_coord": {
+        "lat": 21.75,
+        "lon": 104.5
+      }
+    },
+    "impact_summary": "Wind effects are modest and unevenly distributed around the center, with the strongest gusts confined to a relatively small core region and one or two favored quadrants, supporting choppy seas and occasional squall-like conditions but limiting widespread wind damage inland. In contrast, rainfall is highly concentrated near the circulation center, with several compact, intense convective zones capable of producing very high short-term rain rates that favor flash flooding, rapid ponding, and localized river rises, along with enhanced potential for slope failures in steep terrain. Overall, concentrated rainfall and associated runoff processes dominate the hazard profile, while wind plays a secondary, more localized role."
+  },
+  {
+    "disno": "1980-0069-CHN",
+    "start": "1980-07-24",
+    "end": "1980-07-24",
+    "max_wind_ms": 5.528379917144775,
+    "max_rain_mm": 58.84599685668945,
+    "max_rain_bin": "50-100",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.099375,
+    "rain_coverage_frac": 0.00125,
+    "wind_coverage_text": "very compact wind field",
+    "rain_coverage_text": "very limited rainfall area",
+    "rain_asym_dir": "SW",
+    "wind_max_quadrant": "SW",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "clustered",
+    "max_wind_text": "Beaufort 4, Moderate breeze",
+    "max_rain_text": "heavy rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 32.5,
+      "lon": 111.75,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "China",
+      "admin1": "Hubei",
+      "nearest_city": "Xiangyang"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 30.25,
+      "lon": 112.0,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "China",
+      "admin1": "Hubei",
+      "nearest_city": "Jingzhou",
+      "eval_ms_sets": {
+        "country": [
+          "China"
+        ],
+        "admin1": [
+          "China",
+          "Hubei"
+        ],
+        "full": [
+          "China",
+          "Hubei",
+          "Jingzhou"
+        ]
+      },
+      "eval_coord": {
+        "lat": 30.25,
+        "lon": 112.0
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 33.0,
+      "lon": 104.5,
+      "land_sea": "land",
+      "sea_area": null,
+      "country": "China",
+      "admin1": "Gansu",
+      "nearest_city": "Longnan",
+      "eval_ms_sets": {
+        "country": [
+          "China"
+        ],
+        "admin1": [
+          "China",
+          "Gansu"
+        ],
+        "full": [
+          "China",
+          "Gansu",
+          "Longnan"
+        ]
+      },
+      "eval_coord": {
+        "lat": 33.0,
+        "lon": 104.5
+      }
+    },
+    "impact_summary": "Wind effects are weak and highly uneven around the circulation, with a small core of slightly stronger flow confined near the center and one side experiencing more persistent gusts than the other. This pattern suggests only minor stress on exposed vegetation and light structures, with brief choppy conditions over nearby coastal waters rather than widespread damaging winds. Rainfall is focused into a small footprint with several compact, intermittent downpour zones near the center, rather than a broad shield. Where these short, intense showers repeat over the same spot, they can trigger localized ponding, brief urban-type flooding, and minor rises in small streams, while surrounding areas see little impact. Localized rainfall bursts are the primary hazard driver, with wind playing a clearly secondary role."
+  },
+  {
+    "disno": "1980-0070-PHL",
+    "start": "1980-07-25",
+    "end": "1980-07-25",
+    "max_wind_ms": 17.91585922241211,
+    "max_rain_mm": 202.768798828125,
+    "max_rain_bin": ">=200",
+    "wind_symmetry": "strongly_asymmetric",
+    "wind_coverage_frac": 0.2125,
+    "rain_coverage_frac": 0.145625,
+    "wind_coverage_text": "compact wind field",
+    "rain_coverage_text": "compact rainfall area",
+    "rain_asym_dir": "SW",
+    "wind_max_quadrant": "SW",
+    "wind_rain_co_loc": "same",
+    "rainband_type": "weak_clustered",
+    "max_wind_text": "Beaufort 8, Gale",
+    "max_rain_text": "extreme rain",
+    "storm_center": {
+      "coord_type": "storm_center",
+      "lat": 17.75,
+      "lon": 120.25,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "Philippines",
+      "admin1": "Ilocos Region",
+      "nearest_city": "Magsingal"
+    },
+    "wind_max": {
+      "coord_type": "wind_max",
+      "lat": 17.5,
+      "lon": 122.75,
+      "land_sea": "sea",
+      "sea_area": "Philippine Sea",
+      "country": "Philippines",
+      "admin1": "Cagayan Valley",
+      "nearest_city": "Divilacan",
+      "eval_ms_sets": {
+        "country": [
+          "Philippines"
+        ],
+        "admin1": [
+          "Philippines",
+          "Cagayan Valley"
+        ],
+        "full": [
+          "Philippines",
+          "Cagayan Valley",
+          "Philippine Sea",
+          "Divilacan"
+        ]
+      },
+      "eval_coord": {
+        "lat": 17.5,
+        "lon": 122.75
+      }
+    },
+    "rain_max": {
+      "coord_type": "rain_max",
+      "lat": 17.5,
+      "lon": 119.75,
+      "land_sea": "sea",
+      "sea_area": "South China Sea",
+      "country": "Philippines",
+      "admin1": "Ilocos Region",
+      "nearest_city": "Vigan City",
+      "eval_ms_sets": {
+        "country": [
+          "Philippines"
+        ],
+        "admin1": [
+          "Philippines",
+          "Ilocos Region"
+        ],
+        "full": [
+          "Philippines",
+          "Ilocos Region",
+          "South China Sea",
+          "Vigan City"
+        ]
+      },
+      "eval_coord": {
+        "lat": 17.5,
+        "lon": 119.75
+      }
+    },
+    "impact_summary": "Wind impacts are lopsided around the center, with the strongest gusts confined to a small core region and focused into one or two favored quadrants, leading to localized potential for structural damage, downed trees, and hazardous conditions for small vessels near the path. Outside this tight core, winds weaken quickly, so damaging gusts are spatially limited. Rainfall is very intense but concentrated near the inner circulation, with only patchy outer bands, favoring short-distance contrasts between extreme downpours and much lighter rain. This pattern supports rapid runoff, flash flooding, and possible slope failures close to the track, while areas only slightly removed from the core may see much less hydrological stress. Overall, rainfall-driven flooding processes are the dominant hazard, with wind effects important but more spatially confined."
+  }
+]

@@ -31,7 +31,7 @@ const Layout = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-lg opacity-0 group-hover:opacity-100 transition-opacity" />
             </div>
             <span className="text-xl font-bold tracking-tight text-slate-900">
-              Clima<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-600">Atlas</span>
+              Clima<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-600">Empact</span>
             </span>
           </NavLink>
 
@@ -137,10 +137,10 @@ const Layout = () => {
             <div className="col-span-1 md:col-span-1">
               <div className="flex items-center gap-2 mb-6 text-white">
                 <Globe2 size={24} />
-                <span className="text-xl font-bold">ClimaAtlas</span>
+                <span className="text-xl font-bold">ClimaEmpact</span>
               </div>
               <p className="text-slate-400 text-sm leading-relaxed mb-6">
-                ClimaAtlas provides rapid experimental frameworks for defining the extreme nature of weather events in a changing climate.
+                ClimaEmpact delivers rapid impact analysis and prediction for extreme weather events, helping communities understand and prepare for climate-driven disasters.
               </p>
               <div className="flex gap-4">
                 {/* Social icons placeholder */}
@@ -172,7 +172,7 @@ const Layout = () => {
 
             <div>
               <h3 className="text-white font-semibold mb-6">Stay Updated</h3>
-              <p className="text-xs text-slate-400 mb-4">Subscribe to receive alerts about new rapid attribution analyses.</p>
+              <p className="text-xs text-slate-400 mb-4">Subscribe to receive alerts about new extreme weather impact analyses.</p>
               <form className="flex gap-2" onSubmit={(e) => e.preventDefault()}>
                 <input 
                   type="email" 
@@ -186,7 +186,7 @@ const Layout = () => {
             </div>
           </div>
           <div className="border-t border-slate-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
-            <p>&copy; {new Date().getFullYear()} ClimaAtlas. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} ClimaEmpact. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

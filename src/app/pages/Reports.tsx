@@ -24,7 +24,7 @@ const Reports = () => {
         <div className="mb-12 text-center max-w-2xl mx-auto">
           <h1 className="text-4xl font-bold text-slate-900 mb-4">Analysis Reports</h1>
           <p className="text-slate-600">
-            Browse our archive of rapid attribution studies, analyzing extreme weather events worldwide.
+            Browse our archive of impact studies, analyzing how extreme weather events affect communities worldwide.
           </p>
         </div>
 
@@ -98,10 +98,10 @@ const Reports = () => {
                   <div className="mt-auto pt-4 border-t border-slate-100 flex items-center justify-between">
                     <div className="flex items-center gap-2 text-xs font-medium text-slate-500">
                       <AlertTriangle size={14} className={
-                        report.attribution.includes('Very likely') ? 'text-red-500' : 
-                        report.attribution.includes('Likely') ? 'text-orange-500' : 'text-yellow-500'
+                        report.impactLevel === 'Critical' ? 'text-red-500' : 
+                        report.impactLevel === 'Severe' ? 'text-orange-500' : 'text-yellow-500'
                       } />
-                      {report.attribution}
+                      {report.impactLevel} Impact
                     </div>
                     <NavLink to={`/reports/${report.id}`} className="text-blue-600 text-sm font-semibold hover:underline">
                       Read Analysis

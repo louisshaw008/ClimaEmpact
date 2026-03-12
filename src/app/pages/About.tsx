@@ -8,9 +8,9 @@ const About = () => {
     <div className="bg-white min-h-screen py-20 text-slate-900 font-sans">
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">About ClimaAtlas</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">About ClimaEmpact</h1>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            A collaborative project uniting scientists across Europe to advance the science of extreme weather attribution.
+            A collaborative research initiative from NUS, dedicated to analyzing and predicting the real-world impacts of extreme weather events driven by climate change.
           </p>
         </div>
 
@@ -18,10 +18,10 @@ const About = () => {
             <div className="order-2 md:order-1">
                 <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
                 <p className="text-slate-600 mb-6 leading-relaxed">
-                    Climate change is increasing the frequency and intensity of extreme weather events. ClimaAtlas aims to provide the public, policymakers, and media with timely, scientifically sound information about these connections.
+                    As climate change intensifies extreme weather events worldwide, understanding their cascading impacts on communities, infrastructure, and ecosystems becomes critical. ClimaEmpact bridges the gap between climate science and actionable intelligence by delivering rapid impact analysis and future risk predictions.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                    By developing and applying rapid attribution methodologies, we ensure that the climate change signal is recognized and understood as extreme events unfold.
+                    Through advanced modeling and data-driven approaches, we quantify economic losses, displacement risks, and infrastructure vulnerabilities—empowering policymakers, emergency responders, and communities to prepare for and adapt to climate-driven extremes.
                 </p>
             </div>
             <div className="order-1 md:order-2">
@@ -51,7 +51,7 @@ const About = () => {
                     { name: 'Bayan Abusalameh', role: 'Climate Data Analyst' },
                     { name: 'Vishal Srivastava', role: 'Computational Scientist' },
                     { name: 'Ethan Zhan', role: 'Geospatial Analyst' },
-                    { name: 'Yuxuan Yang', role: 'Climate Attribution Specialist' },
+                    { name: 'Yuxuan Yang', role: 'Climate Impact Specialist' },
                     { name: 'Leonardo Pesce', role: 'Remote Sensing Researcher' },
                     { name: 'Emma Andrews', role: 'Climate Communication Analyst' },
                 ].map((member, i) => (
@@ -82,13 +82,13 @@ const About = () => {
                         For press inquiries, collaboration opportunities, or general questions.
                     </p>
                     <div className="flex flex-col gap-4">
-                        <a href="mailto:contact@climaatlas.org" className="flex items-center gap-3 hover:text-blue-400 transition-colors">
+                        <a href="mailto:contact@climaempact.com" className="flex items-center gap-3 hover:text-blue-400 transition-colors">
                             <Mail size={20} />
-                            <span>contact@climaatlas.org</span>
+                            <span>contact@climaempact.com</span>
                         </a>
-                        <a href="https://twitter.com/climaatlas" className="flex items-center gap-3 hover:text-blue-400 transition-colors">
+                        <a href="https://twitter.com/climaempact" className="flex items-center gap-3 hover:text-blue-400 transition-colors">
                             <Globe size={20} />
-                            <span>@ClimaAtlas</span>
+                            <span>@ClimaEmpact</span>
                         </a>
                     </div>
                 </div>

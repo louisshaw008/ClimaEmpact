@@ -1,6 +1,5 @@
 import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
 import {
   Filter,
   ThermometerSun,
@@ -118,8 +117,24 @@ const countryToContinent = (country: string): string => {
 };
 
 // --- Convert tropical cyclone JSON to ClimateEvent[] ---
-const convertStormRecords = (records: TropicalCycloneRecord[]): ClimateEvent[] => {
-  return records.map((r, i) => {
+const convertStormRecords = (records: unknown): ClimateEvent[] => {
+  // Robustly extract array from any bundler wrapping
+  let arr: any = records;
+  while (arr && !Array.isArray(arr) && typeof arr === 'object') {
+    // Try common wrapper keys
+    if ('default' in (arr as any)) {
+      arr = (arr as any).default;
+    } else {
+      // Last resort: grab first array value from the object
+      const vals = Object.values(arr as any);
+      const found = vals.find((v) => Array.isArray(v));
+      arr = found ?? [];
+      break;
+    }
+  }
+  if (!Array.isArray(arr)) return [];
+
+  return (arr as TropicalCycloneRecord[]).map((r, i) => {
     const countryName = r.storm_center.country === 'Unknown country' ? (r.storm_center.sea_area || 'Unknown') : r.storm_center.country;
     const locationParts = [r.storm_center.nearest_city, r.storm_center.admin1 !== 'Unknown admin1' ? r.storm_center.admin1 : null, countryName].filter(Boolean);
     const title = `TC ${r.disno.split('-').slice(0, 2).join('-')} · ${countryName}`;
@@ -157,7 +172,7 @@ const convertStormRecords = (records: TropicalCycloneRecord[]): ClimateEvent[] =
   });
 };
 
-const STORM_EVENTS = convertStormRecords(tropicalCycloneData as TropicalCycloneRecord[]);
+const STORM_EVENTS = convertStormRecords(tropicalCycloneData);
 
 // --- Mock data for NON-storm types only ---
 const generateMockEvents = (count: number): ClimateEvent[] => {
@@ -254,6 +269,18 @@ const GetIconForType = ({ type, size = 20, className }: { type: EventType; size?
 // ====================================================================
 // Imperative Leaflet Map – bypasses react-leaflet's Context entirely
 // ====================================================================
+
+// Inject Leaflet CSS from CDN (avoids bundler issues with image assets)
+const LEAFLET_CSS_ID = 'leaflet-css-cdn';
+if (typeof document !== 'undefined' && !document.getElementById(LEAFLET_CSS_ID)) {
+  const link = document.createElement('link');
+  link.id = LEAFLET_CSS_ID;
+  link.rel = 'stylesheet';
+  link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+  link.integrity = 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
+  link.crossOrigin = '';
+  document.head.appendChild(link);
+}
 
 interface LeafletMapProps {
   events: ClimateEvent[];

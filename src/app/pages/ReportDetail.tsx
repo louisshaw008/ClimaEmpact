@@ -39,10 +39,10 @@ const ReportDetail = () => {
                 {report.type}
               </span>
               <span className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider shadow-lg flex items-center gap-2 ${
-                 report.attribution.includes('Very likely') ? 'bg-red-500' : 'bg-orange-500'
+                 report.impactLevel === 'Critical' ? 'bg-red-500' : 'bg-orange-500'
               }`}>
                 <AlertTriangle size={14} />
-                {report.attribution} Attribution
+                {report.impactLevel} Impact
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">{report.title}</h1>
@@ -82,25 +82,18 @@ const ReportDetail = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-bold text-slate-900 mb-4">Analysis Results</h2>
+                        <h2 className="text-2xl font-bold text-slate-900 mb-4">Impact Assessment</h2>
                         <p className="mb-4">
-                            Our rapid attribution analysis compares the observed event with historical analogues from the 1979-2001 period. We found that the atmospheric circulation patterns associated with this event have become more frequent and intense in the recent climate (2001-2023).
+                            Our rapid impact analysis evaluates the socioeconomic and environmental consequences of this event, comparing observed damages with historical baselines from the 1979-2001 period to quantify how climate change has amplified its destructive potential.
                         </p>
                         <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 my-6">
                             <h4 className="font-bold text-slate-900 mb-2">Key Finding</h4>
                             <p className="text-slate-600 italic">
-                                "Events similar to the {report.title} are now 3 times more likely to occur than they were in the late 20th century due to human-induced climate change."
+                                "The impacts of events similar to the {report.title} have intensified significantly — occurring 3 times more frequently and with substantially greater destructive potential than in the late 20th century."
                             </p>
                         </div>
                         <p>
-                            The increase in global mean temperature has likely contributed to the intensity of the event, providing more energy to the system and altering the jet stream dynamics.
-                        </p>
-                    </div>
-
-                    <div>
-                        <h2 className="text-2xl font-bold text-slate-900 mb-4">Impact Assessment</h2>
-                        <p>
-                            The event caused widespread disruption, including infrastructure damage, agricultural losses, and significant impacts on public health. Adaptation measures need to be strengthened to cope with the increasing frequency of such events.
+                            Rising global temperatures have amplified the severity of this event, increasing energy availability in the climate system and altering atmospheric circulation patterns that drive extreme weather impacts.
                         </p>
                     </div>
                 </div>

@@ -14,16 +14,16 @@ const Methodology = () => {
           className="text-center mb-16"
         >
           <span className="text-blue-600 font-sans font-bold tracking-wide uppercase text-sm mb-4 block">Our Approach</span>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 font-sans">Rapid Attribution Methodology</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 font-sans">Rapid Impact Assessment Methodology</h1>
           <p className="text-xl text-slate-600 font-sans max-w-2xl mx-auto">
-            How we determine the role of climate change in extreme weather events within hours of their occurrence.
+            How we quantify the real-world consequences of extreme weather events and predict future risks within hours of their occurrence.
           </p>
         </motion.div>
 
         {/* Introduction */}
         <div className="prose prose-lg prose-slate mx-auto mb-16 first-letter:text-5xl first-letter:font-bold first-letter:text-blue-600 first-letter:mr-2 first-letter:float-left">
           <p>
-            Extreme weather attribution is a rapidly evolving field of climate science that seeks to determine whether and to what extent human-caused climate change has altered the probability or intensity of specific weather events. While traditional peer-reviewed studies can take months or years, ClimaAtlas employs a peer-reviewed methodology designed for rapid analysis, providing immediate context when it matters most.
+            Understanding the impact of extreme weather events is a rapidly evolving discipline that combines climate science with socioeconomic impact modeling. While traditional assessments can take months or years, ClimaEmpact employs a peer-reviewed methodology designed for rapid impact analysis and prediction, providing actionable intelligence when it matters most.
           </p>
         </div>
 
@@ -60,9 +60,9 @@ const Methodology = () => {
             <div className="w-12 h-12 bg-orange-100 text-orange-600 rounded-xl flex items-center justify-center mb-6">
               <CheckCircle size={24} />
             </div>
-            <h3 className="text-xl font-bold mb-4">4. Attribution Statement</h3>
+            <h3 className="text-xl font-bold mb-4">4. Impact Statement</h3>
             <p className="text-slate-600 leading-relaxed">
-              Based on the statistical difference between past and present analogues, we quantify the change in intensity and likelihood, assigning a confidence level to the role of climate change.
+              Based on the statistical difference between past and present analogues, we quantify the change in impact severity, economic losses, and displacement risks, assigning a confidence level to the role of climate change in amplifying event consequences.
             </p>
           </div>
         </div>
@@ -74,7 +74,7 @@ const Methodology = () => {
             
             <h3 className="text-2xl font-bold text-white mb-6 relative z-10">Why "Rapid" Matters</h3>
             <p className="mb-6 leading-relaxed relative z-10">
-              The news cycle moves fast. By the time a traditional attribution study is published, the public's attention has often moved on. Rapid attribution bridges this gap, injecting scientific evidence into the conversation while the event is still unfolding.
+              The news cycle moves fast. By the time a traditional impact study is published, the public's attention has often moved on. Rapid impact assessment bridges this gap, injecting scientific evidence into the conversation while the event is still unfolding.
             </p>
             <p className="leading-relaxed relative z-10">
               Our methods are conservative. We only issue statements when the signal is clear and statistically significant. This approach prioritizes reliability over speed, ensuring that our findings stand up to scrutiny.
@@ -87,11 +87,11 @@ const Methodology = () => {
             <ul className="space-y-4 text-sm text-slate-600 font-sans">
                 <li className="flex gap-4">
                     <span className="font-mono text-slate-400">[1]</span>
-                    <p>Faranda, D., et al. (2022). A boosted-boosting approach to extreme weather event attribution. <em>Weather and Climate Dynamics</em>.</p>
+                    <p>Faranda, D., et al. (2022). A boosted-boosting approach to extreme weather event impact assessment. <em>Weather and Climate Dynamics</em>.</p>
                 </li>
                 <li className="flex gap-4">
                     <span className="font-mono text-slate-400">[2]</span>
-                    <p>Yiou, P., et al. (2020). Rapid attribution of the 2019 French heatwaves. <em>Weather and Climate Extremes</em>.</p>
+                    <p>Yiou, P., et al. (2020). Rapid impact analysis of the 2019 French heatwaves. <em>Weather and Climate Extremes</em>.</p>
                 </li>
             </ul>
         </div>

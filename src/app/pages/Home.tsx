@@ -446,16 +446,16 @@ const Home = () => {
           >
             <div className="inline-flex items-center gap-2 bg-blue-500/20 backdrop-blur-sm px-4 py-2 rounded-full border border-blue-400/30 mb-8">
               <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
-              <span className="text-sm font-medium text-blue-100">Scientific Climate Attribution Platform</span>
+              <span className="text-sm font-medium text-blue-100">Extreme Weather Impact Intelligence Platform</span>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-tight">
-              Rapid Attribution of <br />
+              Impact Analysis of <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-emerald-400">
                 Extreme Weather Events
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-200 mb-10 leading-relaxed max-w-3xl mx-auto">
-              ClimaAtlas provides immediate scientific context for extreme weather events, analyzing how climate change influences their intensity and likelihood.
+              ClimaEmpact quantifies the real-world impacts of extreme weather events and predicts future risks, empowering communities and decision-makers with actionable climate intelligence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <NavLink 
@@ -508,9 +508,9 @@ const Home = () => {
             <span className="inline-block text-blue-600 font-semibold tracking-wide uppercase text-sm mb-3 px-4 py-1 bg-blue-50 rounded-full">
               Featured Analysis
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Latest Attribution Study</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Latest Impact Study</h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Our most recent rapid attribution analysis of an extreme weather event
+              Our most recent rapid impact analysis of an extreme weather event
             </p>
           </motion.div>
 
@@ -559,7 +559,7 @@ const Home = () => {
                   </div>
                   <div className="px-3 py-1 bg-red-50 rounded-full text-sm text-red-600 font-semibold flex items-center gap-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-red-500" />
-                    {featuredReport.attribution}
+                    {featuredReport.impactLevel} Impact
                   </div>
                 </div>
                 
@@ -890,7 +890,7 @@ const Home = () => {
                 Recent Studies
               </span>
               <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-3">Latest Analyses</h2>
-              <p className="text-lg text-slate-600">Rapid attribution studies from our team of climate scientists</p>
+              <p className="text-lg text-slate-600">Impact studies from our team of climate scientists</p>
             </div>
             <NavLink 
               to="/reports" 
@@ -938,7 +938,7 @@ const Home = () => {
                   </p>
                   <div className="flex items-center justify-between mt-auto pt-4 border-t border-slate-100">
                     <span className="text-xs font-bold px-3 py-1.5 bg-red-50 text-red-600 rounded-lg">
-                      {report.attribution}
+                      {report.impactLevel} Impact
                     </span>
                     <ArrowRight size={20} className="text-slate-400 group-hover:text-blue-600 group-hover:translate-x-1 transition-all" />
                   </div>
@@ -973,9 +973,9 @@ const Home = () => {
             <span className="inline-block text-emerald-600 font-semibold tracking-wide uppercase text-sm mb-3 px-4 py-1 bg-emerald-50 rounded-full">
               Impact & Importance
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Why Attribution Matters</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Why Impact Analysis Matters</h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Understanding the role of climate change in extreme weather events is crucial for adaptation, policy, and resilience planning
+              Understanding the real-world consequences of extreme weather events is crucial for adaptation, policy, and resilience planning
             </p>
           </motion.div>
 
@@ -984,7 +984,7 @@ const Home = () => {
               {
                 icon: Globe2,
                 title: 'Scientific Clarity',
-                description: 'Provides evidence-based answers to the question: "Did climate change cause this event?" using rigorous statistical methods and climate models.',
+                description: 'Provides evidence-based assessments of how extreme weather events affect communities, infrastructure, and ecosystems using rigorous data-driven methods.',
                 color: 'from-blue-500 to-cyan-500'
               },
               {
